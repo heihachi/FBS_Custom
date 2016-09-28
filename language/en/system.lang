@@ -1,0 +1,234 @@
+1@@Language
+2@@Book of Orbs
+3@@QR Code
+4@@NO
+5@@Scan the QR code to connect with the Book of Orbs app!\nDisplay your collected cards by connecting your accounts!\nClick the link below!\n※You can play even without connecting accounts.
+6@@Using Book of Orbs, scan the QR code.
+7@@Cancel
+8@@Linked!
+9@@Edit
+10@@Copy
+11@@Delete
+12@@Are you sure?
+13@@Yes
+14@@No
+15@@Results:{0}
+16@@Search
+17@@Type
+18@@Ruler/J-Ruler
+19@@Resonator
+20@@Chant
+21@@Addition
+22@@Regalia
+23@@Magic Stone
+24@@Special Magic Stone
+25@@Keyword
+26@@Deck Name
+27@@Do you want to save these changes?
+28@@Yes
+29@@No
+30@@Cancel
+31@@Deck saved.
+32@@Battle Preparation
+33@@1.Enter your opponent's IP address.\n2.Push the join button!
+34@@1.Open the necessary ports.\n2.Tell your opponent your IP address\n※By creating a room with the host button you can see your IP address.\n3.Wait for your opponent to connect.
+35@@Player
+36@@（IP address）
+37@@（Port）
+38@@Join
+39@@Host
+40@@This deck does not meet the rules for play and cannot be used.
+41@@Connecting
+42@@Connected!
+43@@Opponent is thinking
+44@@Cancel
+45@@Rules
+46@@-TIPS-
+47@@OK
+48@@Cancel
+49@@Format
+50@@Single Battle
+51@@Match Battle
+52@@Exempt
+53@@OK
+54@@Cancel
+55@@Global IP
+56@@Local IP
+57@@Waiting
+58@@Tell this code to your opponent to connect and play!
+59@@Tell this code to your opponent to connect and play over LAN!
+60@@Greetings
+61@@Praise
+62@@Surprise
+63@@Sad
+64@@Thinking
+65@@Grattitude
+66@@Surrender
+67@@You go first.
+68@@You go second.
+69@@Choose which cards to replace.
+70@@Done
+71@@No replacements
+72@@Choose {0} cards to discard.
+73@@You can chase.
+74@@Pass
+75@@Will you undo your will selection?
+76@@Yes
+77@@No
+78@@Start of Draw Phase
+79@@End of Draw Phase
+80@@Start of Recovery Phase
+81@@End of Recovery Phase
+82@@Start of Main Phase
+83@@Start of Battle
+84@@Start of Declare Attack Step
+85@@Choose Attacking J/resonator
+86@@Don't Attack
+87@@Choose Target
+88@@End of Declare Attack Step
+89@@Start of Declare Block Step
+90@@Can Block
+91@@End of Declare Block Step
+92@@First Strike Battle Resolution
+93@@Battle Resolution
+94@@End of Battle
+95@@End of Main Phase
+96@@Start of End Phase
+97@@End of End Phase
+98@@This is the surrender stamp. Will you still post it?
+99@@Yes
+100@@No
+101@@Save replay?
+102@@Save
+103@@Don't Save
+104@@Rematch?
+105@@Play a rematch
+106@@Don't play a rematch
+107@@Choose a card
+108@@Choose a card to destroy.
+109@@Choose a card to return to hand.
+110@@
+111@@Choose a card to recover.
+112@@Choose a card to rest.
+113@@Choose a card to bestow.
+114@@Choose a card to banish.
+115@@Choose a card to discard.
+116@@Choose a card to add to hand.
+117@@Choose a card to place counter(s) on.
+118@@Choose a card to remove counter(s) from.
+119@@Choose a card to alter the ability of
+120@@Choose a card to grant the ability to.
+121@@Choose a card to deal damage to.
+122@@Choose a card to remove from game.
+123@@Choose a card to put into the field.
+124@@Will
+125@@Draw
+126@@Damage
+127@@Ability Ammendment
+128@@Recover
+129@@Rest
+130@@Search
+131@@Destroy
+132@@Grant Ability
+133@@Recovery
+134@@Cancel
+135@@Enters your field
+136@@Check the graveyard
+137@@Check the removed area
+138@@Chase
+139@@Resolve
+140@@Cannot be added to hand
+141@@Choose an ability
+142@@Choose the order of triggered abilities
+143@@Erase replay?
+144@@Yes
+145@@No
+146@@Link Service
+147@@Credits
+148@@Delete Cache
+149@@Quit Game
+150@@Volume
+151@@Language
+152@@
+153@@
+154@@
+155@@
+156@@
+157@@
+158@@
+159@@
+160@@
+161@@Right click to skip confirmations during battle!
+162@@While looking at your deck, double click it to edit its contents!
+163@@Double click a basic magic stone to immediately produce will!
+164@@During battle, hold down the shortcut key to prevent card information from popping up!
+165@@Choose one
+166@@Play an effect
+167@@Cost reduction
+168@@Do nothing
+169@@Will you pay additional will?
+170@@Choose a cancel target
+171@@Choose a race
+172@@Choose a card to return to the deck
+173@@You have not acted within the allotted time.\n If this happens three times you will automatically concede the game.
+174@@Two remaining
+175@@One remaining
+176@@Communication error
+177@@Failure to connect
+178@@Recording complete
+179@@Keep these changes?
+180@@Are you sure you want to quit?
+181@@Are you sure you want to cancell recording?
+182@@{0} saved
+183@@Choose a recording rate
+184@@Connecting
+185@@Cancel connection?
+186@@Connection terminated
+187@@Put on top
+188@@Put on bottom
+189@@Place a counter
+190@@Remove a counter
+191@@Deck top check
+192@@Reveal top card of deck
+193@@Choose a race
+194@@Exchange damage
+195@@You lost last round so you may choose to go first or second.
+196@@First
+197@@Second
+198@@Remnant
+199@@Turn {0}\n{1} Turn
+200@@Limit counter
+201@@[+100/+100] counter
+202@@blood counter
+203@@magic counter
+204@@mana counter
+205@@Please check the IP Address and Port
+210@@Remove from game?
+211@@Play to field?
+212@@Return to hand?
+213@@Choose an ability to chase
+214@@Play
+215@@Choose the order
+216@@Use ability?
+218@@Choose
+219@@Remove a counter?
+220@@Bestow a card?
+221@@[Awakening]
+222@@Select will to pay with
+223@@Banish
+224@@Judgement
+225@@Lose
+226@@Future side play
+227@@astral counter
+228@@Copied
+229@@Awaken?
+230@@Awaken
+231@@Don't Awakening
+232@@You and your opponent are running different versions of the game,\n one of you must update to play.
+233@@The game has been updated. Please download the most recent version.
+234@@(Shift)
+235@@Now Initializing…
+236@@
+237@@Failure to initialize
+238@@Play [Torrent]
+239@@Your opponent has not acted within the allotted time. Your opponent will automatically concede the game.
