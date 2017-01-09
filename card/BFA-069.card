@@ -1,0 +1,118 @@
+{
+	"cardId": "BFA-069",
+	"faceupData": {
+		"nameTextId": "BFA-069-F",
+		"cardType": 2,
+		"texturePath": "BFA-069.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			4,
+			6,
+			6
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			24
+		],
+		"originalAtk": 600,
+		"originalDef": 400,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:2\nnone:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "758e38f5-3751-c71d-d90f-c8ee9b147c97",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 26,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "08cbf08c-5c2f-4c0f-403d-65469b188677",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\ncardtype:2\nnum:1\ntotalCostLess:3\nmessagetextid:108\nlogtextid:33"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-069 C"
+	},
+	"facedownData": null
+}

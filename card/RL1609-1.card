@@ -1,0 +1,149 @@
+{
+	"cardId": "RL1609-1",
+	"faceupData": {
+		"nameTextId": "RL1609-1-F",
+		"cardType": 3,
+		"texturePath": "RL1609-1.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			1
+		],
+		"attributeTypes": [
+			1
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "cda853b9-b423-1abe-64f8-ad212dcf3d37",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "47799f34-c077-1962-fd96-734bce43b120",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "index:0,1,2\nnum:1\nmessageTextId:165"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:2"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "974f11ed-92f5-eac6-655b-1a4484653582",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:600",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "5a253b85-77e3-c63f-cb82-b8106eda2fcf",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:600",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "612e84eb-ea47-0288-a3db-160103bd675d",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\ncardtype:2\nzonetype:3\nmessageTextId:121\nlogtextid:2"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:600",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "RL1609-1"
+	},
+	"facedownData": null
+}

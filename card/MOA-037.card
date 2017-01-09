@@ -1,0 +1,245 @@
+{
+	"cardId": "MOA-037",
+	"faceupData": {
+		"nameTextId": "MOA-037-F",
+		"cardType": 2,
+		"texturePath": "MOA-037.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3,
+			6
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [
+			29
+		],
+		"originalAtk": 400,
+		"originalDef": 400,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "1ada326a-2aa2-8c91-84f4-6a0f6ffb64a1",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nlight:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "lightwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nfire:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "firewill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nwater:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "waterwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nwind:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "windwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\ndark:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "darkwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "MOA-037 R"
+	},
+	"facedownData": null
+}

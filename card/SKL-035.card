@@ -1,0 +1,87 @@
+{
+	"cardId": "SKL-035",
+	"faceupData": {
+		"nameTextId": "SKL-035-F",
+		"cardType": 2,
+		"texturePath": "SKL-035.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			2
+		],
+		"attributeTypes": [
+			2
+		],
+		"subtypes": [
+			33
+		],
+		"originalAtk": 200,
+		"originalDef": 200,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "45360cd7-5b72-7408-c5ed-169849f86a0c",
+				"triggerDatas": [
+					{
+						"type": 8,
+						"parameter": "fromzonetype:3\nself:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 5,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "SKL-035 C"
+	},
+	"facedownData": null
+}

@@ -1,0 +1,120 @@
+{
+	"cardId": "TTW-011",
+	"faceupData": {
+		"nameTextId": "TTW-011-F",
+		"cardType": 2,
+		"texturePath": "TTW-011.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [
+			16
+		],
+		"originalAtk": 200,
+		"originalDef": 300,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "01f46ae2-5953-466f-c062-7be3ae38def8",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 14,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "c3bcd2c2-e68b-5ce9-2ea3-426520da7bad",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 1,
+						"parameter": "ratepoint:100\nrateType:2\ncontrol:0\nzoneType:3\ncardType:2\nsubtype:16",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "TTW-011 C"
+	},
+	"facedownData": null
+}

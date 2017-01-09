@@ -1,0 +1,88 @@
+{
+	"cardId": "TTW-087",
+	"faceupData": {
+		"nameTextId": "TTW-087-F",
+		"cardType": 2,
+		"texturePath": "TTW-087.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			4
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			41
+		],
+		"originalAtk": 100,
+		"originalDef": 500,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "2b2fe3ed-b2c1-f9b6-85cf-cb2b1f871c28",
+				"triggerDatas": [
+					{
+						"type": 9,
+						"parameter": "cardtype:2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "trigger:0\nzonetype:3"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "TTW-087 C"
+	},
+	"facedownData": null
+}

@@ -1,0 +1,186 @@
+{
+	"cardId": "CMF-031",
+	"faceupData": {
+		"nameTextId": "CMF-031-F",
+		"cardType": 3,
+		"texturePath": "CMF-031.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			6
+		],
+		"attributeTypes": [
+			1
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "7669ced8-4581-58c4-eb3e-f37d34a32a1f",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "cbb0f49a-8c1e-1c05-441b-01aff50bc83e",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nzonetype:3\ncardtype:2\nnum:1\nlogtextid:24"
+					},
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 56,
+						"parameter": "keytype:2\nkeyname:appled",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:1\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:1000\ndef:0",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 15,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "keyname:appled\nzonetype:3\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 97,
+						"parameter": "keyname:appled\nkeytype:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "CMF-031 C"
+	},
+	"facedownData": null
+}

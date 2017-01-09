@@ -1,0 +1,286 @@
+{
+	"cardId": "TTW-080",
+	"faceupData": {
+		"nameTextId": "TTW-080-F",
+		"cardType": 2,
+		"texturePath": "TTW-080.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			4
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			41,
+			64
+		],
+		"originalAtk": 500,
+		"originalDef": 500,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextId:221"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:4"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "countertype:2\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "65c79273-a0f6-892c-406f-22554dcb2c5e",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:3\ncardtype:2"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnum:1"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 10,
+						"parameter": "num:1\ncountertype:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnum:1"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "9189b116-d2a2-706b-ceeb-b2e49fa072ae",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					},
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "control:0\nself:0\nzonetype:3\ncardtype:2\nsubtype:41\naddtarget:2\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 39,
+						"parameter": "atk:200\ndef:200\ntarget:2",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "48c95640-7039-d21b-e1ed-e24f51ff887a",
+				"triggerDatas": [
+					{
+						"type": 9,
+						"parameter": "owner:1"
+					},
+					{
+						"type": 9,
+						"parameter": "cardtype:0,2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 1,
+						"parameter": "point:500",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": "control:0\nself:0\nzonetype:3\ncardtype:2\nsubtype:41"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "trigger:0\nzonetype:3"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:200\ndef:200\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 3,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "TTW-080 SR"
+	},
+	"facedownData": null
+}

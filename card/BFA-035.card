@@ -1,0 +1,85 @@
+{
+	"cardId": "BFA-035",
+	"faceupData": {
+		"nameTextId": "BFA-035-F",
+		"cardType": 3,
+		"texturePath": "BFA-035.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			2
+		],
+		"attributeTypes": [
+			2
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "e4821e8d-a97f-17cc-8a3e-2aedfa22957d",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "82ad631f-5639-be7f-9a29-6f2bf15e7e6f",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:3\ncardtype:2\nfire:1\nmessageTextId:108\nlogtextid:33"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-035 C"
+	},
+	"facedownData": null
+}

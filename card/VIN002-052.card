@@ -1,0 +1,152 @@
+{
+	"cardId": "VIN002-052",
+	"faceupData": {
+		"nameTextId": "VIN002-052-F",
+		"cardType": 2,
+		"texturePath": "VIN002-052.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3,
+			3,
+			6,
+			6,
+			6
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [
+			59,
+			60
+		],
+		"originalAtk": 800,
+		"originalDef": 800,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:2\nnone:3"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "5a3fb166-c4b1-0aa0-a549-8aea3491f31e",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					},
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "control:0\nself:0\nzonetype:3\ncardtype:2\naddtarget:2\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 39,
+						"parameter": "atk:400\ndef:400\ntarget:2",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": "control:0\nself:0\nzonetype:3\ncardtype:2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "trigger:0\nzonetype:3"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:400\ndef:400\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 3,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "VIN002-052"
+	},
+	"facedownData": null
+}

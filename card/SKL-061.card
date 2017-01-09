@@ -1,0 +1,152 @@
+{
+	"cardId": "SKL-061",
+	"faceupData": {
+		"nameTextId": "SKL-061-F",
+		"cardType": 3,
+		"texturePath": "SKL-061.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "fc44b51a-86f7-aee0-da72-df8a39fa97e3",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "c2932756-e98b-a8fb-3dd2-8e1fef8b6e0a",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 27,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "b82c5cef-eb0e-6ccc-3ba1-1c46cd45cef4",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:3\ncardtype:0,2\nlogtextid:83"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:+400\ndef:+400",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "SKL-061 C"
+	},
+	"facedownData": null
+}

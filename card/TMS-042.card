@@ -1,0 +1,88 @@
+{
+	"cardId": "TMS-042",
+	"faceupData": {
+		"nameTextId": "TMS-042-F",
+		"cardType": 2,
+		"texturePath": "TMS-042.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			2,
+			6
+		],
+		"attributeTypes": [
+			2
+		],
+		"subtypes": [
+			1
+		],
+		"originalAtk": 500,
+		"originalDef": 500,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "4613f735-bf2c-de0f-1c64-691a1ac54657",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "numless:1\ncardtype:2\nzonetype:2\nwater:1\ntotalCost:1\ncontrol:0\nmessagetextid:123",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "TMS-042 C"
+	},
+	"facedownData": null
+}

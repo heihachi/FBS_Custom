@@ -1,0 +1,178 @@
+{
+	"cardId": "TTW-075",
+	"faceupData": {
+		"nameTextId": "TTW-075-F",
+		"cardType": 3,
+		"texturePath": "TTW-075.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			6,
+			6,
+			6
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "d5bdf00d-c94d-3ecb-f9de-852c3298bf92",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},	
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "8015b679-341b-ecf7-34a9-ecf61ab215f8",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 27,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},			
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "7f392e79-4c06-00a7-7a8cc-f5ff9c9d964",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nzonetype:6\ncardtype:2\nnum:1"
+					},
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:1\nnone:3"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 56,
+						"parameter": "keytype:2\nkeyname:dancin",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:0\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": "1784361e-d3a3-41a1-897e-98ed054f3b65",
+				"triggerDatas": [
+					{
+						"type": 15,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "keyname:dancin\nzonetype:3\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 35,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 97,
+						"parameter": "keyname:dancin\nkeytype:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "TTW-075 U"
+	},
+	"facedownData": null
+}

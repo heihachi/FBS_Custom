@@ -1,0 +1,210 @@
+{
+	"cardId": "RL1602-1",
+	"faceupData": {
+		"nameTextId": "RL1602-1-F",
+		"cardType": 2,
+		"texturePath": "RL1602-1.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0,
+			2,
+			6
+		],
+		"attributeTypes": [
+			0,
+			2
+		],
+		"subtypes": [
+			5,
+			1
+		],
+		"originalAtk": 700,
+		"originalDef": 700,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1\nwater:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "8e454ba9-f369-38df-5810-44f0990d0139",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 14,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "75a7fda2-cbad-a3df-e394-e9eee3b4a86e",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1\ncontextmenutextId:132"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nnum:1\nzonetype:3\ncardtype:2\nmessageTextId:120\nlogtextid:82"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "cffeaeb8-00f5-3638-e44b-e295468d7c09",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1\nzonetype:3"
+					},
+					{
+						"type": 3,
+						"parameter": "num:1\nself:0\nzonetype:3\ncardtype:2\nmessageTextId:122"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1"
+					},
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 35,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 35,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 16,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "RL1602-1"
+	},
+	"facedownData": null
+}

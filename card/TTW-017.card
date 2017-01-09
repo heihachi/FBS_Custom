@@ -1,0 +1,215 @@
+{
+	"cardId": "TTW-017",
+	"faceupData": {
+		"nameTextId": "TTW-017-F",
+		"cardType": 2,
+		"texturePath": "TTW-017.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0,
+			0,
+			6
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [
+			16
+		],
+		"originalAtk": 500,
+		"originalDef": 700,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:2\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "cca2f89f-af92-0d04-5c67-8bf82aa71f01",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 14,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "7ba3f69f-b197-567f-b6c2-8b9d17f843a8",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "numless:1\ncardtype:2\ntotalCostLess:1\nzonetype:2\nsubtype:16\ncontrol:0\nmessagetextid:123",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "07f6d82c-626d-69da-1ca4-c3c2966dbd07",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": "cardtype:0,2\nzonetype:3\ncontrol:0\nsubtype:16"
+					}
+				],
+				"targetDatas": [				
+					{
+						"type": 1,
+						"parameter": ""
+					},
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "target:0\naddtarget:2\ncontrol:0\nzoneType:3\ncardType:0,2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 39,
+						"parameter": "target:2\natk:200\ndef:200",
+						"conditionDatas": [
+							{
+								"type": 9,
+								"parameter": "subtype:16"
+							}
+						],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					},
+					{
+						"type": 60,
+						"parameter": "target:1\nindex:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": "control:0\nzoneType:3\nsubtype:16\ncardType:0,2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "trigger:0"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "target:0\natk:200\ndef:200",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "TTW-017 SR"
+	},
+	"facedownData": null
+}

@@ -1,0 +1,257 @@
+{
+	"cardId": "MOA-018",
+	"faceupData": {
+		"nameTextId": "MOA-018-F",
+		"cardType": 2,
+		"texturePath": "MOA-018.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			1
+		],
+		"attributeTypes": [
+			1
+		],
+		"subtypes": [
+			2,
+			13
+		],
+		"originalAtk": 600,
+		"originalDef": 300,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "countertype:2\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 36,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "873ec20b-655c-d414-9009-f26677e0cc35",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "countertype:4\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnum:1"
+					}
+				],
+				"deadlineDatas": []
+			},		
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 10,
+						"parameter": "num:1\ncountertype:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnum:1"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "c87946c5-d431-8e0d-7c1a-6aec517633ce",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": "control:0\ncardtype:0,2\nzonetype:3\nself:0\nsubtype:2"
+					}
+				],
+				"targetDatas": [				
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "countertype:4\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "50a9b87d-4bcf-1e51-8b0c-bc8093dbce27",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1\ncontextmenutextid:246"
+					}
+				],
+				"targetDatas": [				
+					{
+						"type": 5,
+						"parameter": "index:0,1,2\nnum:1\nmessageTextId:165"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 5,
+						"parameter": "countertype:4\nnum:1\nself:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "0b5cc0b3-689d-11d3-c191-f3130003ae4c",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:300",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "5c9fb1f6-3576-8f56-37e5-21af79a66371",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:300",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "e71f18c2-4c05-6418-6e40-2369b615bfdd",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\ncardtype:2\nzonetype:3\nmessageTextId:121\nlogtextid:2"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:300",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "MOA-018 SR"
+	},
+	"facedownData": null
+}

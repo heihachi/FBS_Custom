@@ -1,0 +1,114 @@
+{
+	"cardId": "SKL-030",
+	"faceupData": {
+		"nameTextId": "SKL-030-F",
+		"cardType": 3,
+		"texturePath": "SKL-030.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			6
+		],
+		"attributeTypes": [
+			1		
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "76680512-781f-4f90-b4ea-f2e620e14953",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "224028a4-e537-f3d1-94ca-a64aa2fb8a74",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 27,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "4819b80f-afff-184d-02c5-3f44b55433fa",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:3\ncardtype:2\nmessageTextId:121"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:500",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "SKL-030 C"
+	},
+	"facedownData": null
+}

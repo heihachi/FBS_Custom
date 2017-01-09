@@ -1,0 +1,138 @@
+{
+	"cardId": "VIN002-024",
+	"faceupData": {
+		"nameTextId": "VIN002-024-F",
+		"cardType": 2,
+		"texturePath": "VIN002-024.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			1
+		],
+		"attributeTypes": [
+			1
+		],
+		"subtypes": [
+			68,
+			69
+		],
+		"originalAtk": 500,
+		"originalDef": 500,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "a80a6afa-c507-e308-e5b6-7e224484d0d8",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:300\ndef:300",
+						"conditionDatas": [
+							{
+								"type": 0,
+								"parameter": "control:0\nnametextId:VIN002-025-F"
+							}
+						],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "c4d6df2a-c1c2-0fa1-850d-bcdbd809b0c8",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:500\ndef:500",
+						"conditionDatas": [
+							{
+								"type": 0,
+								"parameter": "control:1\nzonetype:3\ncardtype:0"
+							}
+						],
+						"deadlineDatas": []
+					},
+					{
+						"type": 18,
+						"parameter": "",
+						"conditionDatas": [
+							{
+								"type": 0,
+								"parameter": "control:1\nzonetype:3\ncardtype:0"
+							}
+						],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "VIN002-024"
+	},
+	"facedownData": null
+}

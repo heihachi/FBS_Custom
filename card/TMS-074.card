@@ -1,0 +1,122 @@
+{
+	"cardId": "TMS-074",
+	"faceupData": {
+		"nameTextId": "TMS-074-F",
+		"cardType": 2,
+		"texturePath": "TMS-074.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			4,
+			6
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			35
+		],
+		"originalAtk": 600,
+		"originalDef": 600,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:2\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "11b7190f-4275-8259-eda1-f92a8f54f298",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 14,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "550a89c0-b819-4fcd-f499-da37c95b1cde",
+				"triggerDatas": [
+					{
+						"type": 9,
+						"parameter": "owner:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 44,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 12,
+						"parameter": "control:1\nzonetype:2\nnumover:1"
+					}
+				],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "TMS-074 R"
+	},
+	"facedownData": null
+}

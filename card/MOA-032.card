@@ -1,0 +1,203 @@
+{
+	"cardId": "MOA-032",
+	"faceupData": {
+		"nameTextId": "MOA-032-F",
+		"cardType": 2,
+		"texturePath": "MOA-032.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3,
+			3
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [
+			29
+		],
+		"originalAtk": 400,
+		"originalDef": 400,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "fdac5f6f-0dd8-db56-be7e-e77b51879965",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					},
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "control:0\nself:0\nzonetype:3\ncardtype:0,2\nsubtype:29\naddtarget:2\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 16,
+						"parameter": "target:2",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "60fd4e66-6dc2-d0d1-9588-bc65dc4edd06",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1\ncontextmenutextId:125"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					},
+					{
+						"type": 2,
+						"parameter": "num:1\ncontrol:0\nzonetype:3\ncardtype:0,2\nsubtype:29\nrecovered:1\nmessagetextid:112"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 1,
+						"parameter": "point:500",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 5,
+						"parameter": "num:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": "control:0\nself:0\nzonetype:3\nsubtype:29\ncardtype:0,2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "trigger:0\nzonetype:3"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 16,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 3,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "MOA-032 U"
+	},
+	"facedownData": null
+}

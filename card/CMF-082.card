@@ -1,0 +1,134 @@
+{
+	"cardId": "CMF-082",
+	"faceupData": {
+		"nameTextId": "CMF-082-F",
+		"cardType": 2,
+		"texturePath": "CMF-082.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			4
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			62,
+			1
+		],
+		"originalAtk": 400,
+		"originalDef": 400,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "2038dc97-9cd6-bd3a-a053-5c63285df4f0",
+				"triggerDatas": [
+					{
+						"type": 9,
+						"parameter": "owner:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 3,
+						"parameter": "numless:1\nsubtype:70\nCardType:2\nmessagetextid:116",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 4,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "1d97b64e-df6e-9e30-0375-db3b69d8d0f9",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1\ncontextmenutextId:126"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\ncardtype:2\nzonetype:3\ncontrol:0\nmessagetextId:114"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "target:0\naddtarget:1\ncontrol:1\ncardtype:2\nzonetype:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 2,
+						"parameter": "point:200\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "CMF-082 SR"
+	},
+	"facedownData": null
+}

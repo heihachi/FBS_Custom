@@ -1,0 +1,315 @@
+{
+	"cardId": "BFA-0912345",
+	"faceupData": {
+		"nameTextId": "BFA-0912345-F",
+		"cardType": 1,
+		"texturePath": "BFA-0912345.png",
+		"deckTexturePath": "BFA-0912345-BG.png",
+		"battleBackgroundTexturePath": "BFA-0912345-BG.png",
+		"playCosts": [],
+		"attributeTypes": [
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"subtypes": [
+			22
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "playtype:5\nzonetype:5"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 37,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "d3d0d9bd-9a43-ab7a-092e-1d7279541d04",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:5\nplaytype:2\ncontextmenutextid:224"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "none:4"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 31,
+						"parameter": "",
+						"conditionDatas": [
+							{
+								"type": 10,
+								"parameter": ""
+							}
+						],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 13,
+						"parameter": ""
+					},
+					{
+						"type": 6,
+						"parameter": "countertype:5\nnum:0"
+					},
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-091/092/093/094/095 R"
+	},
+	"facedownData": {
+		"nameTextId": "BFA-094-B",
+		"cardType": 0,
+		"texturePath": "BFA-094.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [
+			22
+		],
+		"originalAtk": 1000,
+		"originalDef": 1000,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "playtype:5"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 37,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "cc313add-c9be-a3ff-efb8-ce613bc8a475",
+				"triggerDatas": [],
+				"targetDatas": [],
+				"costDatas": [],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "57110e2c-685d-a25f-d1ef-290af685f3c0",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "zonetype:1\ntop:1\nnumless:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "zonetype:4\ncardtype:6,7\naddtarget:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 6,
+						"parameter": "target:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 5,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 12,
+						"parameter": "zonetype:4\n\nnumless:3\ncardtype:6,7\nsubtype:52"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "zonetype:1\ntop:1\nnumless:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "zonetype:4\ncardtype:6,7\naddtarget:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 6,
+						"parameter": "target:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 5,
+						"parameter": "num:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 12,
+						"parameter": "zonetype:4\n\nnum:4\ncardtype:6,7\nsubtype:52"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "003a6b3c-f0bb-188d-99a4-14f26ca8b6bf",
+				"triggerDatas": [
+					{
+						"type": 10,
+						"parameter": "control:0\nzonetype:3\ncardtype:2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:4\ncardtype:6,7\nmessageTextId:111\nnum:1\nlogtextid:2"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 6,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-094 JR"
+	}
+}

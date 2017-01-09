@@ -1,0 +1,92 @@
+{
+	"cardId": "BFA-011",
+	"faceupData": {
+		"nameTextId": "BFA-011-F",
+		"cardType": 2,
+		"texturePath": "BFA-011.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [
+			21
+		],
+		"originalAtk": 200,
+		"originalDef": 400,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "da54c382-bb97-d949-2a79-4fe9946dfbbb",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:3\ncardtype:0,2"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 7,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-011 U"
+	},
+	"facedownData": null
+}

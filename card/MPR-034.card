@@ -1,0 +1,68 @@
+{
+	"cardId": "MPR-034",
+	"faceupData": {
+		"nameTextId": "MPR-034-F",
+		"cardType": 3,
+		"texturePath": "MPR-034.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			1
+		],
+		"attributeTypes": [
+			
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "7c2b24bb-a5cd-7bce-7e21-9416117563fa",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					},
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "target:0\nratepoint:300\nratetype:2\ncontrol:0\nzonetype:4\ncardtype:7",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 2,
+						"parameter": "target:1\nratepoint:300\nratetype:2\ncontrol:1\nzonetype:4\ncardtype:7",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "MPR-034 R"
+	},
+	"facedownData": null
+}

@@ -1,0 +1,225 @@
+{
+	"cardId": "BFA-018",
+	"faceupData": {
+		"nameTextId": "BFA-018-F",
+		"cardType": 3,
+		"texturePath": "BFA-018.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			6
+		],
+		"attributeTypes": [
+			1
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "db0f3dda-d007-c2a3-8b25-8d55e43bb101",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "0cc3ec3e-fef6-4da3-8b23-f70f3a5ba027",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "index:0,1\nnum:1\nmessageTextId:165"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:1\nnone:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "0db6839c-1567-5176-cd05-9ed34f03fe36",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:600",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "1a93f63a-eec6-c1ea-ca5c-4c09a267431d",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nzonetype:3\ncardtype:2\nnum:1"
+					},
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 56,
+						"parameter": "keytype:2\nkeyname:boiled",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:3\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:800\ndef:800",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": "a0c8957f-4524-8803-caaf-a8f19d1cdfdc",
+				"triggerDatas": [
+					{
+						"type": 15,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "keyname:boiled\nzonetype:3\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 97,
+						"parameter": "keyname:boiled\nkeytype:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "BFA-018 C"
+	},
+	"facedownData": null
+}

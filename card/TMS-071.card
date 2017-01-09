@@ -1,0 +1,158 @@
+{
+	"cardId": "TMS-071",
+	"faceupData": {
+		"nameTextId": "TMS-071-F",
+		"cardType": 3,
+		"texturePath": "TMS-071.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "735eea2b-4e05-7417-99b7-8259b296393e",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "a829bba7-ec91-2e72-bb84-6f93e5f32c83",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "index:0,1\nawakening:1"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "f2f1accd-0853-7a5a-d175-12c655760e8c",
+				"triggerDatas": [],
+				"targetDatas": [],
+				"costDatas": [],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "a829bba7-ec91-2e72-bb84-6f93e5f32c83",
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nnum:1\nzonetype:6\ncardtype:2\nmessageTextId:109"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 13,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "f2f1accd-0853-7a5a-d175-12c655760e8c",
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "moon:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\ncardtype:2\ndark:1\nmessagetextid:116",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 4,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "TMS-071 C"
+	},
+	"facedownData": null
+}

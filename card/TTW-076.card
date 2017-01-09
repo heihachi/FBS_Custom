@@ -1,0 +1,727 @@
+{
+	"cardId": "TTW-076",
+	"faceupData": {
+		"nameTextId": "TTW-076-F",
+		"cardType": 1,
+		"texturePath": "TTW-076.png",
+		"deckTexturePath": "TTW-076-BG.png",
+		"battleBackgroundTexturePath": "TTW-076-BG.png",
+		"playCosts": [],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			5
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "playtype:5\nzonetype:5"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 37,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "4a160db0-c4d9-ac67-2d8e-7d638fddad7d",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:5\nplaytype:2\ncontextmenutextid:224"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 31,
+						"parameter": "",
+						"conditionDatas": [
+							{
+								"type": 10,
+								"parameter": ""
+							}
+						],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 13,
+						"parameter": ""
+					},
+					{
+						"type": 6,
+						"parameter": "countertype:5\nnum:0"
+					},
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnumover:3"
+					},
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "counterType:0\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "53c0852e-83cb-9659-9dc6-cba277d612f7",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:5\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:1\nnum:1\nzonetype:6\nmessagetextid:122\nlogtextid:13"
+					},
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 35,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:0\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "counterType:2\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "TTW-076 R"
+	},
+	"facedownData": {
+		"nameTextId": "TTW-076-B",
+		"cardType": 0,
+		"texturePath": "TTW-076_S.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			41,
+			50
+		],
+		"originalAtk": 900,
+		"originalDef": 900,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "playtype:5"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 37,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "f1ae43f3-f71c-e46c-9fb5-a66baf37e5a2",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 24,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "7a4e45bd-9078-605e-44309-00de2e624ad",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "num:1\nindex:0,1,2,3,4,5,6,7,8,9,10\nmessageTextId:165"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "997257b7-74b0-e43c-33e9-758843d06be5",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1\ncontextmenutextid:241"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					},
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:2"
+					},
+					{
+						"type": 5,
+						"parameter": "countertype:0\nnum:1\nself:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:11\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "control:1\nzonetype:3\ncardtype:0,2\ntarget:1\naddtarget:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 39,
+						"parameter": "atk:-200\ndef:-200\ntarget:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 79,
+						"parameter": "zonetype:0\nnametextID:TTW-100-F\nnumless:1\ntarget:1\nmessagetextid:123",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "e9c116e5-7756-5cf3-a2233-dd36d31e03b",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:0\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "463eb819-e905-75f5-7e31b-737753a31d1",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}	
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:1\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "11d8f088-1634-181d-2ee71-c1c8753cd22",
+				"triggerDatas": [],
+				"targetDatas": [	
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:2\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "6fd3aea1-cecf-3dcc-0046f-540d3710c78",
+				"triggerDatas": [],
+				"targetDatas": [	
+					{
+						"type": 1,
+						"parameter": ""
+					}	
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:3\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "3407b44f-138b-fe27-203b-e266f06bf513",
+				"triggerDatas": [],
+				"targetDatas": [				
+					{
+						"type": 1,
+						"parameter": ""
+					}				
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:4\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "094f9d2f-e486-048a-75c6-f2d781bba7d7",
+				"triggerDatas": [],
+				"targetDatas": [					
+					{
+						"type": 1,
+						"parameter": ""
+					}				
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:5\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "295c0ca6-b2de-8022-4f6f-4e47e7d628ed",
+				"triggerDatas": [],
+				"targetDatas": [					
+					{
+						"type": 1,
+						"parameter": ""
+					}				
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:6\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "e6fefb03-ae98-1db8-48cd-7637e1a200a7",
+				"triggerDatas": [],
+				"targetDatas": [				
+					{
+						"type": 1,
+						"parameter": ""
+					}			
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:7\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "ccbc6a1b-6b58-e527-0406-0dc99eff397f",
+				"triggerDatas": [],
+				"targetDatas": [				
+					{
+						"type": 1,
+						"parameter": ""
+					}		
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:8\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "bb9882be-2ad5-ac75-adb8-4cb806ef50e4",
+				"triggerDatas": [],
+				"targetDatas": [				
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:9\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "9b994d37-95f3-01df-113e-b827b7cba12c",
+				"triggerDatas": [],
+				"targetDatas": [				
+					{
+						"type": 1,
+						"parameter": ""
+					}			
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "zonetype:3\ncardtype:2\ntotalCost:10\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "e605ca57-9580-9d84-9705-f1e7e51c6964",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": "control:1\nzonetype:3\ncardtype:0,2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "trigger:0\nzonetype:3"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:-200\ndef:-200\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "TTW-076 JR"
+	}
+}

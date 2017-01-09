@@ -1,0 +1,81 @@
+{
+	"cardId": "MPR-006",
+	"faceupData": {
+		"nameTextId": "MPR-006-F",
+		"cardType": 3,
+		"texturePath": "MPR-006.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0,
+			0,
+			6,
+			6
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "b358f349-b227-19e1-379a-8a175b878258",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nzonetype:6\ncardtype:2\nnumless:1"
+					},
+					{
+						"type": 3,
+						"parameter": "control:0\nzonetype:6\ncardtype:4\nnumless:1"
+					},
+					{
+						"type": 3,
+						"parameter": "control:0\nzonetype:6\ncardtype:6,7\nnumless:1"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:2\nnone:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 79,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 79,
+						"parameter": "target:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+		],
+		"collectorId": "MPR-006 R"
+	},
+	"facedownData": null
+}

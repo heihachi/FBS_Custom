@@ -1,0 +1,125 @@
+{
+	"cardId": "TMS-021",
+	"faceupData": {
+		"nameTextId": "TMS-021-F",
+		"cardType": 3,
+		"texturePath": "TMS-021.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1
+		],
+		"attributeTypes": [
+			1
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "e2434171-0d58-e8eb-ae85-e16bbe51cb22",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "e4282e52-5c35-2518-f515-16e8b316c9c6",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "num:1\nindex:0,1\nmessageTextId:165"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "21c66c6a-f396-bad4-6f46-5cb228c91e65",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\ncardtype:2\nnum:1\nlogtextid:33"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:500",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "55e3e9a8-255d-8119-4dee-10e4d027a9d6",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "damaged:1\ncardtype:2\nnum:1\nmessagetextid:108\nlogtextid:33"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "TMS-021 C"
+	},
+	"facedownData": null
+}

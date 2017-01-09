@@ -1,0 +1,92 @@
+{
+	"cardId": "BFA-097",
+	"faceupData": {
+		"nameTextId": "BFA-097-F",
+		"cardType": 7,
+		"texturePath": "BFA-097.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [],
+		"attributeTypes": [],
+		"subtypes": [
+			55
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "aa400fb2-6bc5-abe8-a762-88597e8f6307",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:4\nplaytype:3\nfire:1\n"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "fireWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "f1504dfe-bd7e-e874-1338-c11835bef44e",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:4\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:1\nnone:1"
+					},
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 2,
+						"parameter": "point:100",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-097 R"
+	},
+	"facedownData": null
+}

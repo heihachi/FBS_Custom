@@ -1,0 +1,142 @@
+{
+	"cardId": "BFA-050",
+	"faceupData": {
+		"nameTextId": "BFA-050-F",
+		"cardType": 3,
+		"texturePath": "BFA-050.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "64cd22b1-1ccb-e541-fcd6-78ef64daecfa",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "a1587afb-7d0f-3513-b208-bfb5772c9266",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "num:1\nindex:0,1\nmessageTextId:165"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "ec279512-39c7-f35e-2aef-843d5c8ded56",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "control:0\nzonetype:3\ncardtype:0\naddtarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 23,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					},
+					{
+						"type": 33,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "2d40c7b6-c89f-c489-016a-ff28d5e001fe",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\ncardtype:2\nnum:1\nmessagetextid:109\nlogtextid:13"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 13,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "BFA-050 R"
+	},
+	"facedownData": null
+}

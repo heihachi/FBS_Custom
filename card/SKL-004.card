@@ -1,0 +1,88 @@
+{
+	"cardId": "SKL-004",
+	"faceupData": {
+		"nameTextId": "SKL-004-F",
+		"cardType": 2,
+		"texturePath": "SKL-004.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0,
+			6
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [
+			44
+		],
+		"originalAtk": 400,
+		"originalDef": 600,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "66a7821e-6e4c-b021-8c17-054a52312b4f",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "cardtype:4\nnumless:1\nmessagetextid:108\nlogtextid:33"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "SKL-004 U"
+	},
+	"facedownData": null
+}

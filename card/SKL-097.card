@@ -1,0 +1,312 @@
+{
+	"cardId": "SKL-097",
+	"faceupData": {
+		"nameTextId": "SKL-097-F",
+		"cardType": 5,
+		"texturePath": "SKL-097.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [],
+		"attributeTypes": [
+			6
+		],
+		"subtypes": [
+			54
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "7fd65e6c-72bc-2ae1-ed42-9eed101b1853",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nfire:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "fireWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "7fd65e6c-72bc-2ae1-ed42-9eed101b1853",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nwind:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "windWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "1704d255-0c3a-cae4-0597-3218ed5a88aa",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "none:2"
+					},
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "zonetype:0\ncardtype:2\nsubtype:33\ntotalCostLess:1\nnumless:1\nmessagetextid:123",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 4,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 0,
+						"parameter": "nameTextId:SKL-092-93-F,SKL-092-B"
+					},
+					{
+						"type": 0,
+						"parameter": "nameTextId:SKL-092-93-F,SKL-093-B"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": "null",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "none:2"
+					},
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:0\ncardtype:2\nsubtype:33\ntotalCostLess:1\nnumless:1\nmessagetextid:116",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 4,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "f09fdf3b-1206-3d60-22ba-f529f06566db",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nfire:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 4,
+						"parameter": "num:1\ncontrol:0\nzonetype:2\nnameTextId:SKL-097-F\nmessagetextid:115"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "fireWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nwater:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 4,
+						"parameter": "num:1\ncontrol:0\nzonetype:2\nnameTextId:SKL-097-F\nmessagetextid:115"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "waterWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:3\nwind:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 4,
+						"parameter": "num:1\ncontrol:0\nzonetype:2\nnameTextId:SKL-097-F\nmessagetextid:115"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "windWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "SKL-097 R"
+	},
+	"facedownData": null
+}

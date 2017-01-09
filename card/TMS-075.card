@@ -1,0 +1,205 @@
+{
+	"cardId": "TMS-075",
+	"faceupData": {
+		"nameTextId": "TMS-075-F",
+		"cardType": 2,
+		"texturePath": "TMS-075.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			4,
+			6,
+			6
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [
+			34,
+			35
+		],
+		"originalAtk": 900,
+		"originalDef": 900,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:2\nnone:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "4e9e4c70-5de0-017a-e7c0-afcadc98663d",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 14,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "7dd40418-d1b4-1def-6dd5-3c38c0042998",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					},
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "selector:1\nzonetype:3\ncardtype:2\nnum:1\ncontrol:1\naddtarget:1\ntarget:1\nmessageTextId:114",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 34,
+						"parameter": "target:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "b42f8e62-8bed-3d4c-d3bd-3e5414c19ccf",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1\ncontextmenutextId:132"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1\nzonetype:3"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "moon:1\ndark:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0\ntarget:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1"
+					}
+				],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": "null",
+				"triggerDatas": [
+					{
+						"type": 9,
+						"parameter": "owner:1"
+					},
+					{
+						"type": 9,
+						"parameter": "cardtype:0,2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 1,
+						"parameter": "point:900",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "TMS-075 SR"
+	},
+	"facedownData": null
+}

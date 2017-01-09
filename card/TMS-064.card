@@ -1,0 +1,90 @@
+{
+	"cardId": "TMS-064",
+	"faceupData": {
+		"nameTextId": "TMS-064-F",
+		"cardType": 3,
+		"texturePath": "TMS-064.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "4ab1448f-22bb-dfd9-ab6a-9fc395d9dc9c",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "84cc9938-106d-a091-9a59-82c1dc27f97a",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:10\nchasetype:0\nlogtextid:45"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 45,
+						"parameter": "willcost:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 5,
+						"parameter": ""
+					}
+				],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "TMS-064 U"
+	},
+	"facedownData": null
+}

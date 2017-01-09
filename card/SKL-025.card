@@ -1,0 +1,121 @@
+{
+	"cardId": "SKL-025",
+	"faceupData": {
+		"nameTextId": "SKL-025-F",
+		"cardType": 3,
+		"texturePath": "SKL-025.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1,
+			1,
+			6
+		],
+		"attributeTypes": [
+			1
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "a3eafae5-516f-4869-e7ec-5f38c1f32f41",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:2\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 84,
+						"parameter": "target:0\naddtarget:1\ncontrol:1\ncardtype:2\nzonetype:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 2,
+						"parameter": "target:1\npoint:400\nratetype:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "numless:1\ncardtype:2\nzonetype:2\nfire:1\ncontrol:0\ntotalCostLess:3\naddtarget:3\nmessagetextid:123",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 79,
+						"parameter": "target:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:0\ntarget:3",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "3523c4bf-c827-c60c-18ae-0683c21ca95f",
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 18,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "SKL-025 C"
+	},
+	"facedownData": null
+}

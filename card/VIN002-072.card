@@ -1,0 +1,80 @@
+{
+	"cardId": "VIN002-072",
+	"faceupData": {
+		"nameTextId": "VIN002-072-F",
+		"cardType": 3,
+		"texturePath": "VIN002-072.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			4,
+			6
+		],
+		"attributeTypes": [
+			4
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "8a655151-5b8e-f6bb-8dd1-555529f76a2f",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "contextmenutextid:214\nzonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					},
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 90,
+						"parameter": "target:0\nstate:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 84,
+						"parameter": "control:1\nzonetype:2\nnum:1\naddtarget:2\ntarget:1\nmessagetextid:115",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 44,
+						"parameter": "target:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 90,
+						"parameter": "target:0\nstate:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "VIN002-072 C"
+	},
+	"facedownData": null
+}

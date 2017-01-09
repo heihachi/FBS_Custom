@@ -1,0 +1,150 @@
+{
+	"cardId": "TMS-013",
+	"faceupData": {
+		"nameTextId": "TMS-013-F",
+		"cardType": 3,
+		"texturePath": "TMS-013.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "7dde3bd6-1394-34d1-ea6e-3abf781c0f87",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "847a6e58-868a-51aa-013d-5e645374e3f0",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "num:1\nindex:0,1\nmessageTextId:165"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "9c055186-a0b3-8814-9d34-c7aa8564d921",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzoneType:3\ncardType:2\nmessageTextId:112"
+					},
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 7,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 5,
+						"parameter": "num:1\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "07eb4e4f-9d1c-7123-8cc5-30fd3555f463",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzoneType:3\ncardType:0\nmessageTextId:112"
+					},
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 7,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 5,
+						"parameter": "num:1\ntarget:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 0,
+						"parameter": "nameTextId:TMS-003-F,TMS-003-B"
+					}
+				],
+				"deadlineDatas": []
+			}			
+		],
+		"collectorId": "TMS-013 U"
+	},
+	"facedownData": null
+}

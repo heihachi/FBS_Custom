@@ -1,0 +1,132 @@
+{
+	"cardId": "BFA-057",
+	"faceupData": {
+		"nameTextId": "BFA-057-F",
+		"cardType": 3,
+		"texturePath": "BFA-057.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3,
+			6
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "e2434171-0d58-e8eb-ae85-e16bbe51cb22",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "45f1884a-2327-b37a-5df1-a76cf90ece9f",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "num:1\nindex:0,1\nmessageTextId:165"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:1\none:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "3e694d20-9fb1-9393-90ee-b090568c5744",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 1,
+						"parameter": "point:1000",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "61902779-a115-4294-0402-0ca2096027db",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nzonetype:6\ncardtype:2\ntotalCostLess:2\nnum:1\nmessagetextid:123"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 7,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "BFA-057 C"
+	},
+	"facedownData": null
+}

@@ -1,0 +1,215 @@
+{
+	"cardId": "PR2015-011",
+	"faceupData": {
+		"nameTextId": "PR2015-011-F",
+		"cardType": 2,
+		"texturePath": "PR2015-011.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			2,
+			2,
+			6,
+			6,
+			6
+		],
+		"attributeTypes": [
+			2
+		],
+		"subtypes": [
+			0,
+			57
+		],
+		"originalAtk": 1000,
+		"originalDef": 1000,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:2\nnone:3"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "countertype:2\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "639348cc-08ed-fbec-0250-43eb5f5a3eca",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:1\nzonetype:3\ncardtype:2\nnum:1\nmessageTextId:112\nlogtextid:7"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 7,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnum:1"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 10,
+						"parameter": "num:1\ncountertype:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnum:1"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "0eb5ac20-15e1-1bf8-b6c1-c6f2f4e111f7",
+				"triggerDatas": [
+					{
+						"type": 10,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:1\nzonetype:3\ncardtype:2\nnum:1\nmessageTextId:112\nlogtextid:7"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 7,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 70,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 3,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 3,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "PR2015-011"
+	},
+	"facedownData": null
+}

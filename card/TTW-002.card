@@ -1,0 +1,96 @@
+{
+	"cardId": "TTW-002",
+	"faceupData": {
+		"nameTextId": "TTW-002-F",
+		"cardType": 2,
+		"texturePath": "TTW-002.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [
+			33
+		],
+		"originalAtk": 200,
+		"originalDef": 200,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "5e78b600-f3a5-8a30-e67b-22aa8ba545c7",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nself:0\nzonetype:3\ncardtype:2\nlogtextid:13"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1"
+					},
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 6,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "TTW-002 C"
+	},
+	"facedownData": null
+}

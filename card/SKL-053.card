@@ -1,0 +1,64 @@
+{
+	"cardId": "SKL-053",
+	"faceupData": {
+		"nameTextId": "SKL-053-F",
+		"cardType": 3,
+		"texturePath": "SKL-053.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			3,
+			6
+		],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "04d9b696-23a7-75a4-cae5-286cb12ea658",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "zonetype:1\nnumless:1\nmessagetextid:123\ncardtype:6,7\ndeployrest:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 4,
+						"parameter": "zonetype:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "SKL-053 C"
+	},
+	"facedownData": null
+}

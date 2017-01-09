@@ -1,0 +1,115 @@
+{
+	"cardId": "TMS-008",
+	"faceupData": {
+		"nameTextId": "TMS-008-F",
+		"cardType": 3,
+		"texturePath": "TMS-008.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			0,
+			6
+		],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "e00d49ed-c10d-1bdf-2029-dd6884b1f18a",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "index:0,1\nawakening:1"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "light:1\nnone:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "0e947a7d-f121-a29a-fd13-261820c5d071",
+				"triggerDatas": [],
+				"targetDatas": [],
+				"costDatas": [],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "7753b99f-2b47-6ca2-7689-cbf2b447a311",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:3\nrested:1\ncardtype:2\nmessageTextId:108\nlogtextid:13"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "213755a2-c7d0-9b5f-a09f-fbcb79ba1ca5",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "numless:1\nzonetype:3\nrested:1\ncardtype:2\nmessageTextId:108\nlogtextid:13"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "moon:1\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "TMS-008 R"
+	},
+	"facedownData": null
+}

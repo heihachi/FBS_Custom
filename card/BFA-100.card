@@ -1,0 +1,90 @@
+{
+	"cardId": "BFA-100",
+	"faceupData": {
+		"nameTextId": "BFA-100-F",
+		"cardType": 7,
+		"texturePath": "BFA-100.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [],
+		"attributeTypes": [],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "e1fcee7b-bcc4-cafe-1a8e-1fd8cd4bc5c8",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:4\nplaytype:3\ndark:1\n"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "darkWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "176e5764-720c-fcc4-7ed4-5ea30a506cc6",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:4\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:1\nnum:1\nzonetype:6\nmessagetextid:122\nlogtextid:13"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "dark:1\nnone:1"
+					},
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 35,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-100 R"
+	},
+	"facedownData": null
+}

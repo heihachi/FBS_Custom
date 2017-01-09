@@ -1,0 +1,117 @@
+{
+	"cardId": "MOA-025",
+	"faceupData": {
+		"nameTextId": "MOA-025-F",
+		"cardType": 2,
+		"texturePath": "MOA-025.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			2,
+			2,
+			2
+		],
+		"attributeTypes": [
+			2
+		],
+		"subtypes": [
+			1
+		],
+		"originalAtk": 500,
+		"originalDef": 700,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:3"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "93817580-7330-1228-b610-af19dc88e1d4",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nsubtype:7\nzonetype:3\nmessagetextid:108\nlogtextid:33"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 33,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "8dd074ed-9cc2-411f-b015-67a1bef6702c",
+				"triggerDatas": [
+					{
+						"type": 8,
+						"parameter": "fromzonetype:3\ncontrol:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1\nzonetype:3"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 6,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "MOA-025 R"
+	},
+	"facedownData": null
+}

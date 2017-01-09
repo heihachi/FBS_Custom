@@ -1,0 +1,96 @@
+{
+	"cardId": "BFA-098",
+	"faceupData": {
+		"nameTextId": "BFA-098-F",
+		"cardType": 7,
+		"texturePath": "BFA-098.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [],
+		"attributeTypes": [],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "be55ce1f-c44e-1241-55e8-cec69cac15f2",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:4\nplaytype:3\nwater:1\n"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 61,
+						"parameter": "waterWill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "66fc4dc7-4412-6205-747a-aa24881a41fc",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:4\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:1\nnone:1"
+					},
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 5,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 44,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "BFA-098 R"
+	},
+	"facedownData": null
+}

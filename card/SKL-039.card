@@ -1,0 +1,59 @@
+{
+	"cardId": "SKL-039",
+	"faceupData": {
+		"nameTextId": "SKL-039-F",
+		"cardType": 3,
+		"texturePath": "SKL-039.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			2,
+			2
+		],
+		"attributeTypes": [
+			2
+		],
+		"subtypes": [],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "04afcdbd-ab4e-4682-c888-4a60d19b4972",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 5,
+						"parameter": "num:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+		],
+		"collectorId": "SKL-039 C"
+	},
+	"facedownData": null
+}

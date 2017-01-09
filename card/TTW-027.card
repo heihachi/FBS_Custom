@@ -1,0 +1,221 @@
+{
+	"cardId": "TTW-027",
+	"faceupData": {
+		"nameTextId": "TTW-027-F",
+		"cardType": 2,
+		"texturePath": "TTW-027.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			1
+		],
+		"attributeTypes": [
+			1
+		],
+		"subtypes": [
+			32
+		],
+		"originalAtk": 200,
+		"originalDef": 400,
+		"originalAbilities": [
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 36,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "ce290a64-7f5d-49fe-0370-25b9ee92aa51",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					},
+					{
+						"type": 3,
+						"parameter": "num:1\ncardtype:2\nzonetype:3\ncontrol:0\nmessagetextId:114"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 5,
+						"parameter": "num:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 44,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "6ebe5dd4-6a13-02b0-55a2-7e9dc780de57",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1\ncontextmenutextid:127"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "control:0\nnum:1\ncardtype:2\nzonetype:3\nmessagetextid:119\nlogtextid:82"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "fire:1"
+					},
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [
+					{
+						"type": 60,
+						"parameter": "index:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 60,
+						"parameter": "index:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "a81a86b5-7311-4c9f-bd93-d0630b823088",
+				"triggerDatas": [
+					{
+						"type": 4,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 39,
+						"parameter": "atk:400\ndef:400",
+						"conditionDatas": [],
+						"deadlineDatas": [
+							{
+								"type": 1,
+								"parameter": ""
+							}
+						]
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": false,
+				"detailTextId": "1784361e-d3a3-41a1-897e-98ed054f3b65",
+				"triggerDatas": [
+					{
+						"type": 9,
+						"parameter": "owner:1"
+					},
+					{
+						"type": 9,
+						"parameter": "cardType:0,2"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "self:1"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 34,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				]
+			}
+		],
+		"collectorId": "TTW-027 R"
+	},
+	"facedownData": null
+}

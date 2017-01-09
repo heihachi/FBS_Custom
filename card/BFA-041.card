@@ -1,0 +1,144 @@
+{
+	"cardId": "BFA-041",
+	"faceupData": {
+		"nameTextId": "BFA-041-F",
+		"cardType": 3,
+		"texturePath": "BFA-041.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [
+			2,
+			2,
+			2
+		],
+		"attributeTypes": [
+			2
+		],
+		"subtypes": [
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "b450c399-b9a0-937d-36f3-96e53c5e5c8c",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 15,
+						"parameter": "target:0",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "fa473071-4e0b-c45b-2858-b2f2127ed5eb",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:2\nplaytype:0\ncontextmenutextid:214"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 5,
+						"parameter": "index:0,1\nawakening:1"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:3"
+					}
+				],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "c32eb3a3-516c-a486-ea13-f48d2080a14a",
+				"triggerDatas": [],
+				"targetDatas": [],
+				"costDatas": [],
+				"effectDatas": [],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "870dcf35-2b9d-c606-ace2-6b4b741bb953",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nzonetype:3\ncardtype:2\nmessageTextId:107"
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 47,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": "7b5e8047-c0c0-6559-385c-6fd493783faf",
+				"triggerDatas": [],
+				"targetDatas": [
+					{
+						"type": 3,
+						"parameter": "numless:1\nzonetype:3\ncardtype:2\nmessageTextId:107"
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "water:2"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 47,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"collectorId": "BFA-041 R"
+	},
+	"facedownData": null
+}

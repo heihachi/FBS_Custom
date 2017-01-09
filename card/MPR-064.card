@@ -1,0 +1,317 @@
+{
+	"cardId": "MPR-064",
+	"faceupData": {
+		"nameTextId": "MPR-064-F",
+		"cardType": 1,
+		"texturePath": "MPR-064.png",
+		"deckTexturePath": "MPR-064-BG.png",
+		"battleBackgroundTexturePath": "MPR-064-BG.png",
+		"playCosts": [],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [
+			1
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "playtype:5"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 37,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 17,
+						"parameter": "num:0"
+					},
+					{
+						"type": 6,
+						"parameter": "countertype:2\nnum:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "b3ffe529-5750-3af4-9c64-ac12d90e108f",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:5\nplaytype:2\ncontextmenutextid:224"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "wind:2\nnone:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 31,
+						"parameter": "",
+						"conditionDatas": [
+							{
+								"type": 10,
+								"parameter": ""
+							}
+						],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 13,
+						"parameter": ""
+					},
+					{
+						"type": 6,
+						"parameter": "countertype:5\nnum:0"
+					},
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": null,
+				"detailTextId": "null",
+				"triggerDatas": [
+					{
+						"type": 2,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 9,
+						"parameter": "countertype:2\nnum:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "43c5780d-64ed-a55e-8019-c894b5c4deec",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:5\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					},
+					{
+						"type": 5,
+						"parameter": "self:1\ncountertype:2\nnum:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 79,
+						"parameter": "zonetype:1\nnumless:1\nmessagetextid:123\ncardtype:6,7",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 4,
+						"parameter": "zonetype:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "MPR-064 R"
+	},
+	"facedownData": {
+		"nameTextId": "MPR-064-B",
+		"cardType": 0,
+		"texturePath": "MPR-064_S.png",
+		"deckTexturePath": "",
+		"battleBackgroundTexturePath": "",
+		"playCosts": [],
+		"attributeTypes": [
+			3
+		],
+		"subtypes": [
+			5
+		],
+		"originalAtk": 700,
+		"originalDef": 800,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "playtype:5"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 37,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "a5bab1b4-3d67-a68a-bd7a-cc70c28d63a2",
+				"triggerDatas": [
+					{
+						"type": 6,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 3,
+						"parameter": "num:1\nmessagetextid:116",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+						{
+						"type": 4,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "62f066a3-695a-e09b-9c71-6edb1c8c010b",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:3\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 5,
+						"parameter": "num:2",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 12,
+						"parameter": "control:0\nzonetype:2\nnum:0"
+					}
+				],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "MPR-064 JR"
+	}
+}

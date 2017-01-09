@@ -1,0 +1,162 @@
+{
+	"cardId": "WL001",
+	"faceupData": {
+		"nameTextId": "WL001-F",
+		"cardType": 1,
+		"texturePath": "WL001.png",
+		"deckTexturePath": "CMF-005-BG.png",
+		"battleBackgroundTexturePath": "CMF-005-BG.png",
+		"playCosts": [],
+		"attributeTypes": [
+			0
+		],
+		"subtypes": [
+			1
+		],
+		"originalAtk": -1,
+		"originalDef": -1,
+		"originalAbilities": [
+			{
+				"isChase": false,
+				"isShowDetailText": false,
+				"detailTextId": null,
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "playtype:5\nzonetype:5"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 2,
+						"parameter": "self:1"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 37,
+						"parameter": "num:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 17,
+						"parameter": "num:0"
+					}
+				],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": false,
+				"isShowDetailText": true,
+				"detailTextId": "a48d1015-1897-cd2b-2c1e-440b3fc0cbdc",
+				"triggerDatas": [
+					{
+						"type": 0,
+						"parameter": ""
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [],
+				"effectDatas": [
+					{
+						"type": 50,
+						"parameter": "control:0\nplaytype:0\ncardtype:2\nsubtype:0\nlightwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 50,
+						"parameter": "control:0\nplaytype:0\ncardtype:2\nsubtype:0\nfirewill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 50,
+						"parameter": "control:0\nplaytype:0\ncardtype:2\nsubtype:0\nwaterwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 50,
+						"parameter": "control:0\nplaytype:0\ncardtype:2\nsubtype:0\nwindwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 50,
+						"parameter": "control:0\nplaytype:0\ncardtype:2\nsubtype:0\ndarkwill:1",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [],
+				"deadlineDatas": []
+			},
+			{
+				"isChase": true,
+				"isShowDetailText": true,
+				"detailTextId": "23b2e457-13f8-759b-98db-30bb67a525c0",
+				"triggerDatas": [
+					{
+						"type": 3,
+						"parameter": "zonetype:5\nplaytype:1"
+					}
+				],
+				"targetDatas": [
+					{
+						"type": 1,
+						"parameter": ""
+					}
+				],
+				"costDatas": [
+					{
+						"type": 1,
+						"parameter": "none:1"
+					},
+					{
+						"type": 4,
+						"parameter": "num:1\ncontrol:0\nzonetype:2\ncardtype:2\nsubtype:0\nmessagetextid:115"
+					}
+				],
+				"effectDatas": [
+					{
+						"type": 3,
+						"parameter": "numless:1\ncardtype:2\nsubtype:0\nmessagetextid:116",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					},
+					{
+						"type": 4,
+						"parameter": "",
+						"conditionDatas": [],
+						"deadlineDatas": []
+					}
+				],
+				"conditionDatas": [
+					{
+						"type": 2,
+						"parameter": "num:1"
+					}
+				],
+				"deadlineDatas": []
+			}
+		],
+		"enchantAbilities": [],
+		"collectorId": "WL001"
+	},
+	"facedownData": null
+}
