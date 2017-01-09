@@ -104,6 +104,116 @@ CFC-097-F@@Fire Magic Stone
 CFC-098-F@@Light Magic Stone
 CFC-099-F@@Water Magic Stone
 CFC-100-F@@Wind Magic Stone
+LEL-001-F@@Amaterasu, Guide of Light
+LEL-002-F@@Amaterasu's Foresight
+LEL-003-F@@Beast of Holy Light
+LEL-004-F@@Lumia's Purification
+LEL-005-F@@Millium's Weapon
+LEL-006-F@@Snow White of the Crystal Apple
+LEL-007-F@@Spirit of Light
+LEL-008-F@@The Seven Dwarves
+LEL-009-F@@Ancient Manager
+LEL-010-F@@Bastet, Goddess of Cats
+LEL-011-F@@Bastet's Fascination
+LEL-012-F@@Conjure Time Bomb
+LEL-013-F@@Invisible Flame
+LEL-014-F@@Skyscraper Giant
+LEL-015-F@@Time-Guide Admiral, Alfred
+LEL-016-F@@World Flame Summoning
+LEL-017-F@@Alhama'at's Mage Knight
+LEL-018-F@@Charlotte, Wielder of the Sacred Spirit
+LEL-019-F@@Fishing
+LEL-020-F@@Jiang Ziya, the Fisherman
+LEL-021-F@@Moojdart's Illusionary Soldier
+LEL-022-F@@Rachel, Alhama'at's Advisor
+LEL-023-F@@Rachel's Smile
+LEL-024-F@@Reunion of Sisters
+LEL-025-F@@Fiethsing, the Fate Spinning Winds
+LEL-026-F@@Final Breeze
+LEL-027-F@@Gale Force
+LEL-028-F@@Jack, Climbing the Beanstalk
+LEL-029-F@@Luan, Auspicious Beast
+LEL-030-F@@Magic Stone Life Form
+LEL-031-F@@Planting Beans
+LEL-032-F@@Sacred Beast of Wind
+LEL-033-F@@Alhama'at's Black Lightning
+LEL-034-F@@Death at Midnight
+LEL-035-F@@Dimension Dragon, Nidhogg
+LEL-036-F@@Fated Reunion
+LEL-037-F@@Kumomaru
+LEL-038-F@@Shadow of Lapis
+LEL-039-F@@Yashahime, First Daughter of the Mikage
+LEL-040-F@@Yashamaru
+LEL-041-F@@A Rendezvous of Light and Wind
+LEL-042-F@@Altea's Elite
+LEL-043-F@@Ammit, Beast of Gluttony
+LEL-044-F@@Ancient Barrier
+LEL-045-F@@Barrier Seal
+LEL-046-F@@Blessed Knight
+LEL-047-F@@Catalyst Spirit
+LEL-048-F@@Crimson Ray
+LEL-049-F@@Curse of the Kyuubi
+LEL-050-F@@Deceptive Dream
+LEL-051-F@@Demonic Instigator
+LEL-052-F@@Divine Beast of Attoractia
+LEL-053-F@@Dragon of Scenic Beauty
+LEL-054-F@@Fairy of Recurrence
+LEL-055-F@@Faria's Summon
+LEL-056-F@@Fiethsing's Monocle
+LEL-057-F@@Ghost of Attoractia
+LEL-058-F@@Glorius, Masked Crusader
+LEL-058-B@@Faria, Ruler of Divine Beasts
+LEL-059-F@@Griphon, Racing Across Darkness
+LEL-060-F@@Grusbalesta, Magic Stone Researcher
+LEL-061-F@@Grusbalesta's Secret Technique
+LEL-062-F@@Healing Wing Dragon
+LEL-063-F@@Illusion Wizard
+LEL-064-F@@Illusory Projection
+LEL-065-F@@Invading Demon of Water, Valentina
+LEL-065-B@@Valentina, Released Terror
+LEL-066-F@@Jeanne d'Arc, the Pious Flame
+LEL-067-F@@Kaguya, Lunar Researcher
+LEL-068-F@@Kaguya's Moonbeam Butterfly
+LEL-069-F@@Lilias Petal, Agent of Salvation
+LEL-069-B@@The Nine-Tailed Fox
+LEL-070-F@@Lilias Petal's Assistant
+LEL-071-F@@Lumia, the Fated Rebirth
+LEL-071-B@@Lumia, Saint of the Crimson Lotus
+LEL-072-F@@Lumia's Judgment
+LEL-073-F@@Magic Rebound
+LEL-074-F@@Meeting of Light and Fire
+LEL-075-F@@Messenger of Lilias Petal
+LEL-076-F@@Moojdart, Lady of Illusions
+LEL-077-F@@Muul, the Town That Never Was
+LEL-078-F@@Nightmare, the Ashen Dream
+LEL-079-F@@Nyarlathotep, the Crimson Radiance
+LEL-080-F@@Plot of Water and Darkness
+LEL-081-F@@Priest of Divine Protection
+LEL-082-F@@Prokaryotic Being
+LEL-083-F@@Rune of Sol
+LEL-084-F@@Runic Commander Demon, Akiot
+LEL-085-F@@Sacred Komainu
+LEL-086-F@@Shining Kirin
+LEL-087-F@@Sol, Hierophant of the Helio Star
+LEL-087-B@@Sol, Dark Commander of Steam
+LEL-088-F@@Steam Explosion
+LEL-089-F@@Sympathy of Fire and Water
+LEL-090-F@@The Manticore
+LEL-091-F@@Tuning of Wind and Darkness
+LEL-092-F@@Twin-Headed Dragon
+LEL-093-F@@Valentina's Reach
+LEL-094-F@@Wetlands of Magical Origin
+LEL-095-F@@White Horn Kaichi
+LEL-096-F@@Awakened Magic Stone, The Earth
+LEL-097-F@@Killing Stone
+LEL-098-F@@Magic Stone of Vaporization
+LEL-099-F@@Pricia's Memoria
+LEL-100-F@@Remains of Attoractia
+LEL-101-F@@Darkness Magic Stone
+LEL-102-F@@Fire Magic Stone
+LEL-103-F@@Light Magic Stone
+LEL-104-F@@Water Magic Stone
+LEL-105-F@@Wind Magic Stone
 SDL1-001-F@@Confectioner Hansel
 SDL1-002-F@@Fairy Tale Kingdom, Light Palace
 SDL1-003-F@@Gourmand Gretel
@@ -169,6 +279,14 @@ SDL5-009-F@@Shara, Third Daughter of the Mikage
 SDL5-010-F@@The Drunken Oni
 SDL5-011-F@@The Monkey Trapped in Life
 SDL5-012-F@@Darkness Magic Stone
+_LEL-TK-003-F@@Fantasy Token
+_LEL-TK-004-F@@Fantasy Token
+_LEL-TK-005-F@@Bomb Token
+_LEL-WC-001-F@@Will Coin
+_LEL-WC-002-F@@Will Coin
+_LEL-WC-003-F@@Will Coin
+_LEL-WC-004-F@@Will Coin
+_LEL-WC-005-F@@Will Coin
 _TK4-001-F@@Elf Token
 _TK4-002-F@@Elf Token
 _WC1-001-F@@Will Coin

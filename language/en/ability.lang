@@ -10,6 +10,7 @@ d7be139c-8ef0-458a-818d-ca6425540adf@@[Force]1 (Roll a die.) Target J/resonator 
 e02f61e9-289b-43b9-a0a7-8a2664b3a553@@[Quickcast]
 a5f0c87d-7d98-4a53-8dc2-c6064873fc83@@Recover target attacked or blocking resonator. Prevent the next damage that would be dealt to it this turn.
 d50b631d-b231-44dd-a71a-41e9ab8474d5@@Prevent the next damage that would be dealt to it this turn
+8e431b6c-3d3e-4e46-9c44-422f74b34c87@@Prevent all damage
 3a8da5f5-b9c8-49f8-833b-bef3a6ba8dfd@@[Flying]
 87db9e62-f9ca-4166-a73b-24645c2545ba@@When this card enters your field⇒Search your deck for a Fairy Tale resonator with total cost 1 and put it into your field. Then shuffle your deck.
 5543834d-0033-4be3-8b55-cbb1f8279f41@@[Flying]
@@ -23,7 +24,7 @@ aca9770c-4b04-44e9-bd87-f9362b6ec144@@[First Strike]
 98f5af4b-3d07-4b2d-a35d-d4a4758e0d35@@At the beginning of your turn⇒Remove the top card of your deck from the game. If it's a Fairy Tale resonator, you may play it this turn.
 af411b53-6cb2-44b3-91be-1d1fcfab63b1@@If you would roll one or more dice using [Force], roll that many dice plus one instead.
 9b839f09-f9e1-4f12-9c1d-92abc80155df@@Bestowed resonator gains [+400/+400].
-65912e0b-9c7b-4c3c-9f0d-00ce8b7a15f7@@When bestowed resonator is put into a graveyard from your field⇒[Force]1 (Roll a die.) You gain 200 life multiplied by the result of the roll.
+65912e0b-9c7b-4c3c-9f0d-00ce8b7a15f7@@When bestowed resonator is put into a graveyard from a field⇒[Force]1 (Roll a die.) You gain 200 life multiplied by the result of the roll.
 41b1ddd0-4da1-46ff-83f9-cdd19f977306@@[Bestow] [w], [rest] (Bestow this card to target resonator. Play this ability only if this card is not bestowed to a card and only anytime you can play a chant.)
 902e2077-1108-4292-9e49-2ec1bc4bdc5a@@[rest]: Target Fairy Tale resonator gains [+200/+1200] until end of turn.
 48dd2064-a304-4f0f-9cf6-1d219f154b72@@Put any number of target Fairy Tale resonators from your graveyard on top of your deck in any order. Draw a card.
@@ -34,6 +35,7 @@ d56ce829-2560-4f5d-acac-dea9e7d4ad48@@[w]: This card gains [0/+200] until end of
 9ddaeac5-bff4-4873-9def-2020b7dcb741@@[Energize] [w]
 a2645955-94b9-4c6e-843c-aaeb119c86cf@@[w]: Target resonator gains [+100/+100] until end of turn.
 8cf5bd96-98b8-443e-bafd-05bc2398feff@@[b]: Target J/resonator loses [Flying], [First Strike], [Swiftness], [Precision], and [Imperishable] until end of turn.
+5e6d0243-bba0-468f-8862-34bc039ba7df@@Prevent all damage that would be dealt to this card while it is battling.
 2eb98a29-143d-48d5-8282-7ce46440c30e@@[Precision]
 d3a07e38-a275-40a6-bbfe-89bbe9a79a8a@@Prevent all damage that would be dealt to this card while it is battling.
 8a834292-10c3-4a28-8567-66b0962871df@@J/resonators your opponent controls lose and cannot gain [Flying], [First Strike], [Swiftness], [Precision], and [Imperishable].
@@ -96,6 +98,7 @@ b48a16d5-ef1b-4b7e-85ac-b36045e51dee@@Remove a mana counter from this card: Prod
 26b3cc13-bda9-430d-b7b4-b50495decb7e@@Bestowed resonator gains [+200/+200].
 8690ef4a-af85-4791-be44-93ac98d9a6f1@@[Bestow] [r], [rest] (Bestow this card to target resonator. Play this ability only if this card is not bestowed to a card and only anytime you can play a chant.)
 88a18448-cc3b-4c33-aad7-eafc9ab4e2c9@@If a fire chant would deal damage, it deals that much +200 instead.
+67abaae0-ebee-4bbd-bb15-9c7a3b5e4fea@@If a fire chant would deal damage, it deals that much +200 instead.
 fbfefb67-254d-4499-99f3-e9410ae7bc5c@@[First Strike]
 ebb32fc7-f6fa-4541-8146-02c7323c5ab6@@[Precision] (This card can attack recovered J/resonators.)
 65e62a90-e0ea-471e-8632-bb654e664dda@@Whenever a resonator that was dealt damage by this card this turn is put into a graveyard⇒Put five [+100/+100] counters on this card.
@@ -103,6 +106,7 @@ ebb32fc7-f6fa-4541-8146-02c7323c5ab6@@[Precision] (This card can attack recovere
 0c9759f9-4c67-435b-9684-ab00d81bb6a7@@Target resonator gains [+400/0] and [First Strike] until end of turn.
 cf2ddda5-88f5-4198-87e4-cfb418e38f47@@[FirstStrike]
 bafc4b47-1f20-4640-8a53-2253ab48b717@@If this card would deal damage to a J/resonator, it deals double that much instead.
+ebd616f0-e150-4089-8a5c-48df1a82ebe0@@If this card would deal damage to a J/resonator, it deals double that much instead.
 2b901b1a-b544-404f-b119-6584cf622ec5@@You may pay [1] less to play resonators with total cost 5 or more.
 296ec7ea-9fa5-40e6-9bb7-8a9297512988@@Each turn, you may pay [0] to play your first chant rather than pay its cost.
 266bcbe6-3ec0-45cf-9738-a721d5379577@@This card gains [+200/+200] for each addition you control.
@@ -183,8 +187,9 @@ f6b95170-4604-4932-a702-69272d6b9b9e@@Elf J/resonators you control gain [0/+200]
 1ed2a3eb-a776-41c5-becb-afe1de5655d8@@Cards named "Great Sky Sage, Sun Wukong" you control gain [+200/+200] and [Precision].
 8ecbdaf1-cfce-437e-b143-e123f3ba0fbb@@Your opponent pays [1] more to play chants.
 d1b5e4f7-6dd9-4ed7-9640-d4ac9b2d6b60@@[Quickcast]
-75611cb9-8571-44ce-88e6-e6ec74433567@@When this card enters your field⇒Prevent all damage that would be dealt to target J/resonator this turn, if you played two or more cards this turn.
+75611cb9-8571-44ce-88e6-e6ec74433567@@When this card enters your field⇒Prevent all damage that would be dealt by target J/resonator this turn, if you played two or more cards this turn.
 cb833be5-e102-4702-921c-25aa9282b5c2@@[rest]: Produce [w], [r], [u], [g], or [b].
+ee63ebe3-fe03-4b5f-a820-6979cab37915@@Prevent all damage
 1a92e73b-e9be-4289-9244-9213d82b1e8d@@[Judgment] [g][g][2]. You may pay [g][2] less to play this ability if you control "Sha Wujing" and "Zhu Bajie".
 ce5f4dd2-6e7b-4c87-80e2-5629d1e1d0f2@@[Energize] [g]
 2d54c520-9796-4a17-a6f1-c4837b7638a6@@[g]: Search your deck for a card named "Flying Cloud", reveal it and put it into your hand. Then shuffle your deck.
@@ -264,11 +269,319 @@ ec3bc762-0868-4ee2-9ea4-0e41edc0837b@@[rest]: Produce [r].
 de6ba640-a749-42f1-b726-ce4ba002b4e7@@[rest]: Produce [w].
 d2c86308-25fd-4cf6-9bf3-49d1f04439d6@@[rest]: Produce [u].
 555d9469-1081-48cc-9078-c13ac997ec5e@@[rest]: Produce [g].
+34aba71e-d514-491f-b310-54fe2c252e37@@Whenever this card deals damage ⇨ You gain that much life.
+1ac53f39-c5d6-48f9-9e54-215deb8653bc@@[w][w], rest two recovered resonators you control: Put this card from your graveyard into your field rested. Play this ability only if this card is in your graveyard.
+77cee582-4a78-4e57-92d3-e50e92b29710@@[Inheritance][w][w][1]: Target J/resonator gains [+800/+800] until end of turn.
+1d48e3e2-67cc-4214-95be-edfa42d0101f@@[Quickcast]
+95a58a39-d7f9-4fd9-af0b-707b4eb78a64@@Prevent all damage that would be dealt by J/resonators this turn.
+183e19cc-8405-49f3-afd1-940506ac5885@@Prevent all damage
+9585b4df-32e7-4663-a2d3-3927240ca56e@@Prevent all damage
+a80486f7-fa69-458b-b372-9ee592aa6ba8@@[Barrier] [r][b]
+39ca10cf-ccbd-4675-bfde-017739504187@@[Inheritance][w]: Target J/resonator gains [+300/+300] and [Barrier] [r][b] until end of turn. (Pay [w] and discard this card to play this ability.)
+e79d7c9f-3344-4602-9ff8-bb6a88fdc476@@[Barrier] [r][b]
+37efd82d-e5e3-43c2-a66d-0b3f734addfc@@[Remnant]
+05cf6391-9ede-4e1c-81b9-9c394ede53d3@@Destroy target rested non-magic stone card.
+136b1c6b-f1c7-4877-a8c8-59dee02a43fa@@[Quickcast]
+583b4b75-8e59-445a-bb4b-a199d3db811a@@Put two [+100/+100] counters on target J/resonator.
+0448a843-6254-4ded-8a29-3f8be76dd596@@This card enters your field with two [+100/+100] counters on it for each light magic stone you control.
+da480582-f1e6-4793-9e3e-9a5c5af7aa2a@@[w], remove a [+100/+100] counter from this card: Put a [+100/+100] counter on another target light J/resonator.
+2a4b1b6a-7977-48fa-be25-e490b266beeb@@When this card enters your field ⇨ Put a [+100/+100] counter on another target J/resonator you control.
+73e43c23-6ba1-467a-bbe5-002a698b5806@@This card enters your field with seven [+100/+100] counters on it.
+5ebb04d8-12bd-4888-b984-23f3d8d35cb0@@Prevent all damage that would be dealt to this card. If damage was prevented this way, remove a [+100/+100] counter from this card.
+c93266a4-4f66-4310-8cdf-c2eb5995d25b@@Prevent all damage that would be dealt to this card. If damage was prevented this way, remove a [+100/+100] counter from this card.
+d4118209-5b97-4f2a-a54c-4c5d15960198@@When this card enters your field ⇒ Remove the top card of your deck from the game. This card deals 100 damage multiplied by the total cost of the card removed this way to your opponent.
+b9087f49-13e6-458a-b35e-7a26edd720c6@@If a Cthulhu you control would deal damage to a J/resonator, it deals double that much instead.
+18278494-80af-470d-affd-1f9a42d68a72@@[Inheritance][r][1]: Put five limit counters on target Cthulhu J/resonator with [Limit].
+86681cfc-9cab-484f-a75c-6a00f393d562@@If a Cthulhu you control would deal damage to a J/resonator, it deals double that much instead.
+5aa754ed-68d0-40de-909e-13eab7cd40dc@@If a Cthulhu you control would deal damage to a J/resonator, it deals double that much instead.
+3c31d6dc-7d39-4360-831a-bf6da207f0ca@@[Quickcast]
+1ec929a9-6217-468b-9c05-e0451b9744e4@@Target J/resonator must block this turn if able. Draw a card.
+f443740e-f028-48cd-b8e2-1e7a4e3c9cfa@@Put a [100/100] fire Bomb resonator token with "At the beginning of your turn ⇨ Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." into your field.
+c5f8ed39-8b83-4985-ad58-36be1138ea8f@@[Awakening][r][r][1]: That token gains "At the end of your turn ⇨ Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." until end of turn.
+9f015499-778b-467e-a5db-97ae872e9237@@Put a [100/100] fire Bomb resonator token with "At the beginning of your turn ⇨ Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." into your field.
+d7384205-2883-4178-8a58-3bf174c02f2e@@[Awakening][r][r][1]: That token gains "At the end of your turn ⇨ Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." until end of turn.
+c0adfced-09da-4dbc-a03e-72164a9b5597@@At the end of your turn ⇨ Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls.
+5196a6b6-a74b-48bf-b3bc-4e35bf072947@@[Inheritance][r][1]: This card deals 600 damage to target J/resonator. (Pay [r][1] and discard this card to play this ability.)
+485c87b3-0404-4048-9a8e-07d8c6268908@@[Precision]
+2f6b444b-8462-4435-a7ca-090df4a12835@@[Barrier](Chant)
+8a2305c8-5caa-4844-bd33-e07ae5ef626b@@[rest]: This card deals 800 damage to each J/resonator without [Flying].
+22d774f1-30e9-4d7b-8a93-5c9a4c0f487d@@When this card enters your field ⇨ If you removed two or more mana counters from your J/ruler this turn and you have no produced will, put two mana counters on your J/ruler.
+75308121-a5c8-4b01-840e-02e40f05077b@@Choose two - Your opponent banishes a special magic stone; or this card deals 800 damage to each resonator your opponent controls; or this card deals 800 damage to your opponent; or this card deals 1500 damage to target J-ruler
+a87f70c5-efa8-43a3-a1f4-ce505d862aee@@Your opponent banishes a special magic stone
+78b9ec1d-4a0a-4911-8f85-a31f80d41e88@@This card deals 800 damage to each resonator your opponent controls
+915b831b-e9c4-42dc-8549-fa1bc6b9f886@@This card deals 800 damage to your opponent
+42b563aa-2f6a-4edf-a736-1216af83dfb9@@This card deals 1500 damage to target J-ruler
+e2ac725a-2c6d-4b7c-be7f-66f6175bc3fc@@[Barrier](Total cost equal to or less than number of cards in your hand)
+9ad9545a-a27e-46dc-bdcf-4fb99bad6a77@@This card gains [+200/+200] for each card in your hand.
+7d980200-ba29-434f-a71c-57296187e60e@@When this card enters your field⇒Draw a card.
+c3b23ea3-01ab-4d1b-b49b-7bc67fae3086@@Put the top card of your deck into your graveyard. If it was put into your graveyard this way, put a [X00/X00] water/darkness Fantasy resonator token into your field, where X is that card's total cost.
+87f4ea71-f9b0-4934-9834-cb79b5d6a1c5@@When this card enters your field ⇨ Put the top card of your deck into your graveyard. If it was put into your graveyard this way, put a [X00/X00] water/darkness Fantasy resonator token into your field, where X is that card's total cost.
+96a3641e-fd16-4392-9930-4e090960bd8e@@Prevent all damage that would be dealt to this card during your opponent's turn.
+d6b51d8e-06b1-4b32-b63a-397430fd904c@@[u]: Return this card to its owner's hand.
+caa61bb6-0db5-4151-be07-09085a8e7de3@@Prevent all damage that would be dealt to this card during your opponent's turn.
+21656836-827e-44f3-82c6-13cd6fa3a1ce@@[Inheritance][u][u]: Return target resonator to its owner's hand. (Pay [u][u] and discard this card to play this ability.)
+111c1451-482b-42e1-890b-582ca2a5dc23@@[Quickcast]
+fe99685f-11bd-47f8-b2fa-232d9d571564@@Rest all J/resonators and magic stones your opponent controls.
+b7a019b3-874b-4b8a-99ee-1597845f2247@@Choose one, if you control a light J/resonator and another water J/resonator, you may choose both - Draw two cards; or return target resonator to its owner's hand.
+28bfbb69-a5e5-4fda-b59f-5e28cd10ca16@@Choose one, if you control a light J/resonator and another water J/resonator, you may choose both - Draw two cards; or return target resonator to its owner's hand.
+701ac298-dfae-4a2d-82fb-05586d10b956@@Draw two cards.
+586d6863-14c3-40ad-9b9e-79f8b8438c0a@@Return target resonator to its owner's hand.
+87842602-1bfa-450a-8339-8240cf69fb24@@[Quickcast]
+71b7fbef-4fcb-4c2e-b817-4e2b09902be2@@When this card enters your field ⇨ You may return another target resonator you control to its owner's hand.
+c1749ce7-d24c-4ba3-a9b1-c38aa11a8382@@[Inheritance][g][1]: Target J/resonator gains [+600/+600] until end of turn. Search your deck for a card named "Fiethsing's Monocle" and put it into your field. Then shuffle your deck.
+0c4de5ae-96ec-4f10-8364-4732e6923a51@@
+f38ae441-c222-4573-898e-00a2692dc99b@@
+78ef5263-ed7b-46b2-aade-6102cd1b1cf0@@[Quickcast]
+74881b1e-75bc-448c-a26e-31d4d54f79c0@@Return target spell to its owner's hand. [Torrent] Your opponent can't play spells this turn.
+accef1b1-65eb-42bd-8caf-571f966a2367@@Return target spell to its owner's hand. [Torrent] Your opponent can't play spells this turn.
+8e2f4781-bd9a-4c37-a737-6b691c1a22f2@@[Quickcast]
+d28fbca9-8e18-4633-a477-742ae48d077b@@Destroy target resonator with [Flying].
+166eca4c-f4b3-4994-b79c-a4d8198e1bcb@@When this card deals damage to your opponent ⇨You may banish this card. If you do, you may search your deck for a card named "Skyscraper Giant" and put it into your field. Then shuffle your deck.
+b742be6b-42e8-449d-867e-20ff555c4f7a@@Banish a card
+95a6ce3e-0318-4110-b49b-d9fcb2d3022c@@
+0444db4d-6512-4027-a554-f13e5a0058a2@@[Inheritance][g][2]: Target J/resonator gains [+700/+700] until end of turn. (Pay [g][2] and discard this card to play this ability.)
+3cb758b4-671d-475c-bcc9-b87652cb0935@@When this card is put into a graveyard from your field⇒Produce [w], [r], [u], [g], or [b].
+85ec41e2-9e71-4ece-ab14-c9e9bbbf1465@@Produce [w].
+c3a1196e-e424-4439-b26e-1079c03bdd4d@@Produce [r].
+1668efdb-0f54-4605-9ac5-eeb59834eea7@@Produce [u].
+a74e74bc-751d-4742-941a-88bcc4018850@@Produce [g].
+fce301af-753a-4a0e-a8ad-91871e1d8f8d@@Produce [b].
+6efe15cd-5c8d-403a-8bf1-30e658632ed1@@Search your deck for a card and put it into your graveyard. Then shuffle your deck. If this card was awakened, put that card from your graveyard into your hand.
+0d44128d-0927-40ae-b7d1-5892073af78f@@[Awakening][g][1]
+b68fbb6e-173d-4f27-ab49-91ce06bc0acf@@Search your deck for a card and put it into your graveyard. Then shuffle your deck.
+6f8a178c-335b-48cf-b76d-79a6c2bd3d7a@@Search your deck for a card and put it into your graveyard. Then shuffle your deck. If this card was awakened, put that card from your graveyard into your hand.
+1fa5aace-03e2-49ad-a0bc-1bfcda79001f@@[Flying]
+5466b290-ce20-4381-b8b0-e3833c627c4e@@[Inheritance][g]: Target J/resonator gains [+300/+300] and [Flying] until end of turn. (Pay [g] and discard this card to play this ability.)
+b6ca0337-ceb5-40de-8600-c487b4bd4332@@[Flying]
+7024702e-4c03-4a0e-949f-11684b53ee8f@@This card cannot be cancelled.
+42902096-f948-49a6-a313-2b1e3c3ead9d@@Destroy target non-darkness resonator. If this card was awakened, put it into its owner's hand as it resolves.
+eafe7db8-08cc-411e-a447-4acdb178e55f@@[Awakening][b][3]
+cc8473b7-161f-485b-b541-2c2a93bdf9c9@@Destroy target non-darkness resonator.
+a471a66e-60dd-42be-9ca2-0a68de622993@@Put it into its owner's hand as it resolves.
+0f544372-ea5b-409e-901a-bf40b329ca7b@@[Quickcast]
+c1860d1f-fd69-4eff-a744-89600f940d94@@Your opponent banishes a resonator. Put a [+100/+100] counter on each J/resonator your opponent controls.
+718501ad-b6df-4515-9a4c-bb4c079f484c@@[Flying]
+0590d6fa-83ac-44d2-951a-16d7c4e32731@@When this card enters your field ⇨ Remove all resonators your opponent controls with the lowest total cost among resonators your opponent controls from the game.
+2dae2dbf-7822-4395-bd69-be8e9f5e00fa@@Choose one, if you control two or more darkness J/resonators, you may choose both - Search your deck for a card. Then shuffle the rest of your deck and put that card on top of it; or draw a card.
+19bc87c4-192c-4d12-a935-502c71fec93b@@Choose one, if you control two or more darkness J/resonators, you may choose both - Search your deck for a card. Then shuffle the rest of your deck and put that card on top of it; or draw a card.
+47be21a2-13c8-49d7-95bf-eb42debf1349@@Search your deck for a card. Then shuffle the rest of your deck and put that card on top of it
+676a27b1-fee3-4402-93bf-e065cfe1e360@@Draw a card.
+5f8cf0f1-4391-4b71-b37b-482329b9d62d@@When this card enters your field ⇨ Put two [+100/+100] counters on target resonator your opponent controls.
+eebf18f2-11cf-4e8d-b69b-ae15dfa076d5@@Banish this card: Put a token copy of target resonator token you control into your field.
+4bdab5e8-83e4-42df-b439-a7f4657a816b@@When this card enters your field ⇨ Move all [+100/+100] counters from other J/resonators to this card.
+f7263d51-45ce-4eb6-9ca8-cdf74b7b6c91@@[b], remove a [+100/+100] counter from this card: Put two [+100/+100] counters on another target Vampire you control.
+7bc13f56-0971-4b28-8ac6-e3be3caa5076@@When this card enters your field ⇨ Destroy target resonator your opponent controls with one or more [+100/+100] counters on it.
+101ed272-01f3-47c9-9231-5ad422fa5257@@[Quickcast]
+94334780-cef1-4768-b464-213ec2fb6475@@Choose one, if you control a light J/resonator and another wind J/resonator, you may choose both - You may put a light or wind resonator with total cost 4 or less from your hand into your field; or put four [+100/+100] counters on each J/resonator you control.
+b4c25583-bc85-4b3b-8844-d3c42a643752@@Choose one, if you control a light J/resonator and another wind J/resonator, you may choose both - You may put a light or wind resonator with total cost 4 or less from your hand into your field; or put four [+100/+100] counters on each J/resonator you control.
+99420d49-a399-45c4-8a7d-6a2616bf1c91@@You may put a light or wind resonator with total cost 4 or less from your hand into your field.
+807221ce-f629-4081-b5e0-c4d0c357ecf1@@Put four [+100/+100] counters on each J/resonator you control.
+806e14ff-a91f-423f-bb27-89d60076dddb@@When this card enters your field ⇨ Reveal the top four cards of your deck. Put a chant from among them into your hand and the rest into your graveyard.
+07cbd807-183f-48cd-a980-0b2cd7b743e9@@When this card enters your field⇒Destroy target resonator. If you do, you gain life equal to its DEF.
+a0c5093c-48c6-4800-9608-74178a3cd50d@@Players pay [2] more to play non-Ancient Magic chants.
+74caacf5-6b56-4384-b3d0-03a94a5f9bb1@@Players pay [2] more to play non-Ancient Magic chants.
+c2746149-c80c-4dfc-a572-dce70371eb72@@When this card enters your field⇒Remove all cards in all graveyards from the game.
+8237893c-329a-4e85-9cce-92287f05c984@@If a card would be put into a graveyard from anywhere, remove it from the game instead.
+632bf117-dd84-4995-9637-e170df89ec98@@When this card enters your field ⇨ Destroy target rested resonator your opponent controls.
+81a63e32-c6f5-4228-959a-1a064f91c30b@@Banish this card: Put two mana counters on target J/ruler.
+606652c2-d480-4660-adc7-2c0f6f71a03b@@[Quickcast]
+e77c137e-4d35-4a93-8d49-3a62cf1e9236@@This card deals 600 damage to target player or J/resonator. You gain 600 life.
+36d6994c-1e9a-4512-9188-3cee83d4e9dd@@[Quickcast]
+1a5f7c44-9b40-4a8b-940e-2c5e24bef171@@Cancel target non-resonator spell unless its controller pays X. If that spell was cancelled this way, search its controller's deck, graveyard, and hand for all cards with that name and remove them from the game. Then that player shuffles their deck.
+9c095a51-5fd4-41dd-8fa0-481cd7c84c8a@@When this card enters your field ⇨ Your opponent discards a card.
+a5b7554e-f574-4df9-9e0d-a394b24ddfc5@@When this card is put into a graveyard from your field ⇨ Draw a card.
+84d03866-0d4e-4f23-8175-c5cb792e4773@@J/resonators your opponent controls must attack this card if able.
+b4633209-175d-41d5-8799-161a972f6c3b@@Whenever this card is dealt damage by a J/resonator ⇨ This card deals that much damage to that J/resonator.
+061a874f-b78d-4c67-9078-45e5d7557dc3@@Whenever you play an [Inheritance] ability ⇨ This card gains [+200/+200] and "Whenever this card deals damage ⇨ You gain that much life." until end of turn.
+c9001aaf-7401-4be6-a1ae-39046688ca0e@@[Inheritance][w][g]: Target J/resonator you control gains [+600/+600] until end of turn.
+13b5b8ff-e660-4534-ac8a-cbd4e6f3d9b7@@Whenever you play an [Inheritance] ability ⇨ This card gains [+200/+200] and "Whenever this card deals damage ⇨ You gain that much life." until end of turn.
+a7ea23e6-0896-4317-b49c-be48f98a39c3@@Whenever you play an [Inheritance] ability ⇨ This card gains [+200/+200] and "Whenever this card deals damage ⇨ You gain that much life." until end of turn.
+087e8f01-db2f-45fb-8995-de642c297681@@Whenever this card deals damage⇒You gain that much life.
+ae9afb9c-15c2-4ee3-806e-9e49966bfa4c@@[Quickcast]
+6a803d64-7d98-45f6-836b-5bdb584149e7@@[Flying]
+af32a20c-8e42-4072-8701-d88aa1e3ddcc@@You may pay [w][g] less to play this card if you cancelled a spell your opponent controlled this turn.
+c7becd8c-37a1-4ae4-bb62-065e4c45eecd@@[Flying]
+a8c2b0b5-53d7-4966-a8c4-4a0a8a075405@@When this card enters your field ⇨ Search your deck for a card named "Fairy of Recurrence", reveal it and put it into your hand. Then shuffle your deck.
+cc275287-d265-43ef-8828-56a274ee7183@@[Quickcast]
+05ce65f9-601f-470d-bc37-cfd1af0938b0@@Search your deck for a resonator, reveal it and put it into your hand. Then shuffle your deck. [Torrent] Recover up to one target magic stone.
+098cee64-326a-46c9-89c1-843550c27f9e@@Search your deck for a resonator, reveal it and put it into your hand. Then shuffle your deck. [Torrent] Recover up to one target magic stone.
+3761b807-f9b7-4c56-b5c9-2236c4e0e485@@Bestowed resonator gains "[rest]: Produce [w], [r], [u], [g], or [b]."
+59608e03-6498-4898-9992-a1f2a7373a99@@[Bestow] [rest]
+a40be02b-a30a-493b-b05c-64cf6a3ef9f2@@[rest]: Produce [w], [r], [u], [g], or [b].
+f39d3917-ece9-4288-a762-840caa4f2e05@@Whenever this card deals damage to your opponent ⇨ Draw a card. Your opponent discards a card.
+c7093983-50d5-4d8c-93dc-64cf6129b594@@[Judgment] [w][g][1]
+12cd4d03-23c2-497a-9e47-c17d54c992fe@@[Energize][w][g]\n(As the game starts, if you are not the player going first, you get a will coin with "Banish this coin: Produce [w] or [g].")
+16c08885-874b-4a6f-8a35-6ff9de4c9517@@Discard a card with [Inheritance]: Draw a card. Play this ability only during your turn and only once per turn.
+143077f5-d6be-40e5-97b2-5520ed1a0f6d@@When this card enters your field⇒Put the top card of your magic stone deck into your field.
+b994e601-b8ad-434e-82b5-52a79ea3a97c@@Each turn, you may play your first [Inheritance] ability without paying its cost. You still discard that card.
+62112a03-d16e-494d-a30e-f1cf0b955c18@@God's Art <Pricia's Spirit Wind> [0]: This card gains [Barrier] until end of turn. Play God's Art <Pricia's Spirit Wind> only once per game.
+d1bb5caa-10d9-4fb8-a243-61f62b48e129@@[Flying]
+2f40681f-5404-4f15-8efd-a419fa82edf3@@When this card enters your field ⇨ Put the top two cards of your magic stone deck into your field.
+57e54a93-6f23-4a16-8fe3-1ffd99d1b5e9@@Magic stones you control gain [Barrier].
+8d592eb4-6b00-4fc8-b3cc-55dc55ca34bd@@This card gains [+100/+100] for each magic stone you control with a different name.
+6261dec7-6e2f-4aa0-a911-06459389c299@@When this card enters your field ⇨ Banish any number of magic stones. Put the top X cards of your magic stone deck into your field rested, where X is the number of magic stones banished this way.
+bc13f78b-afa7-427e-97ce-8fc01e6898f8@@This card gains [Swiftness] and [Precision] as long as you control five or more magic stones with different names.
+bfbf3991-10f5-41ba-8ba3-33da4ac449f4@@[Swiftness]
+59d80f73-6278-4f6b-a328-d96774df7dbb@@[Precision]
+f24ceb60-96ad-4113-9988-27c5f812fd44@@[Barrier]
+aa8d6913-9401-4542-9381-1a69a0594d26@@[Barrier]
+2e047d04-ce40-4be0-a700-f12ebbd70a83@@[Quickcast]
+b9996187-780c-4aea-957f-676c383db7ef@@Target magic stone becomes a [1000/1000] resonator with [Swiftness] until end of turn. It's still a magic stone.
+468942ab-d453-48d3-b19a-29c97bc6be95@@[Swiftness]
+0324ccb7-c7ae-40c3-9688-f3c02e98b0a5@@[Flying]
+6c8266f7-d4f8-4ae8-bbed-70a4e00993f0@@When this card enters your field ⇨ You gain 1000 life.
+5daad95a-2e5c-4623-8c66-7aa75722940f@@When this card enters your field ⇨ Put a [400/400] water/darkness Fantasy resonator token into your field.
+b763682b-8e12-48ba-89f3-1371ba3d93ba@@When this card is put into a graveyard from your field ⇨ Put a [400/400] water/darkness Fantasy resonator token into your field.
+7c9e42ca-1690-4714-ad0b-a3d66e366d91@@[Judgment] [u][b][1]
+8c866c13-f9a6-4dea-9261-6f61407e7c04@@[Energize][u][b] \n(As the game starts, if you are not the player going first, you get a will coin with "Banish this coin: Produce [u] or [b].")
+ba43a595-ed6f-48a5-bf90-afbe4f75a2c0@@Whenever you play a water chant⇒Target resonator gains [-X00/0] until end of turn, where X is that chant's total cost.
+293d669e-8a15-4a9c-bc7b-b140dae1c5bc@@Whenever you play a darkness chant⇒Target resonator gains [0/-X00] until end of turn, where X is that chant's total cost.
+8d65c2de-680e-4b3e-898e-34788385b7a9@@You may pay [1] less to play water/darkness cards. (A water/darkness card is both water and darkness.)
+3a771fd7-96e2-4a93-9519-5512999562f1@@Banish two resonators: Choose one - Draw a card; or destroy target resonator.
+f4376f3e-7189-40a2-a1e5-db7fef5ecb87@@Draw a card
+0865e8a0-45d4-4bd4-ad2e-40880aef2892@@Destroy target resonator
+961240b3-030d-4f2f-ac39-589e4116d19e@@[Swiftness]
+c2ff0390-1a1f-444b-aebd-8d7c5546b09f@@[Precision]
+e7c8e1c7-2e03-4f70-892d-e7a107912241@@[First Strike]
+8888160f-ae53-41e1-9c7c-eec516c779ad@@[Flying]
+fce61772-d308-4498-a5d5-99304803c95b@@You may pay [1] less to play this card if you control a Moon.
+8c5dae7c-c1e5-4524-afd5-a2967b85616d@@Whenever a card is bestowed to this card⇒Recover this card.
+18453566-6594-43e5-a2d0-337dd83031d7@@Search your deck for a resonator or addition with total cost X+1 or less and put it into your field. Then shuffle your deck.
+1d476a2d-3a36-4195-b552-6ac8718eac65@@[Judgment] [0]
+963e801c-6c80-4312-ab19-e3c393b3a012@@[Energize][g][b]\n(As the game starts, if you are not the player going first, you get a will coin with "Banish this coin: Produce [g] or [b].")
+7c2ea655-704e-4732-a1a8-3d5750cfd537@@This card cannot be destroyed.
+01ea830a-e4fa-4a01-a471-efc0845d2aab@@Banish a wind resonator, a darkness resonator, and a "Killing Stone": Search your deck, hand, removed area, and/or cards you own from outside the game for a wind or darkness Chimera resonator and put it into your field. If you searched your deck, shuffle it. Play this ability only once per turn.
+8db2aa72-89ac-403e-a77f-abbd97bbb32f@@[rest]: Shuffle target card named "Killing Stone" from your graveyard into your magic stone deck.
+264c5043-7d26-4594-9776-6a21074c13ba@@Search your deck.
+b9fb8e9c-b174-4106-a7ed-29fb1304e0d8@@Search your hand.
+4978aae8-3d14-4661-9989-9d557c4af970@@Search your removed area.
+c3d1d0d4-ce1b-4468-879a-b8122c75dd38@@Search your outside of game(only side deck).
+37f147ce-358b-430a-b1d9-95f3063b59d5@@When this card enters your field ⇨ Put target wind or darkness resonator with total cost 1 from your graveyard into your field.
+f35160ad-1d69-4823-9e6e-15db96cfd295@@[Energize][w][r]\n(As the game starts, if you are not the player going first, you get a will coin with "Banish this coin: Produce [w] or [r].")
+807c04d5-ec06-4404-ba5d-ae7788f91d38@@[Judgment] [w][r][1]
+8fc73f37-b81b-4e5a-adb4-dc7da201e202@@At the end of your turn ⇨ Remove target rested resonator you control from the game. Then put it into its owner's field.
+48c065b4-a384-4536-8a23-c9ced985561d@@[Imperishable]
+72d54648-ded9-46d5-8e43-6f83ecfd6dd2@@When this card deals damage ⇨ You gain that much life.
+1c3a0d8d-122f-4c6a-8c2f-c85514363dd9@@[Swiftness]
+6c8bfadc-ecaa-4e93-8069-33980351566c@@As this card enters your field, you may remove a card named "Nyarlathotep, the Crimson Radiance" in your hand from the game. This card gains [Imperishable] and "When this card deals damage ⇨ You gain that much life." as long as a card named "Nyarlathotep, the Crimson Radiance" is in your removed area and was removed by this card.
+09adea2a-5a1a-42f6-bf4e-43e175a5111d@@Whenever this card attacks ⇨ Remove target resonator from the game. Then put it into its owner's field rested.
+4882f917-622f-46ba-89f1-a8fa81d04496@@Remove all non-magic stone, non-J-ruler cards with total cost X or less from the game.
+1dc06f2c-0149-4209-9c02-ef41afb6880d@@[Quickcast]
+d505a247-19f6-4375-845e-b38442667ad9@@Change the target of target spell or ability with a single target. Draw a card. (The new target must be legal.)
+c8eca639-3858-492b-8187-a4ce8f280f66@@[Quickcast]
+09cab25d-0b46-4c1d-833f-c9b0d6ac6cf8@@Choose one, if you control a light J/resonator and another fire J/resonator, you may choose both - Reveal the top card of your deck. You gain 100 life multiplied by the total cost of the card revealed this way. Put that card into your hand; or reveal the top card of your deck. This card deals 100 damage multiplied by the total cost of the card revealed this way to your opponent. Put that card into your hand.
+29b77221-04ab-4d2a-a129-07378d6330ac@@Choose one, if you control a light J/resonator and another fire J/resonator, you may choose both - Reveal the top card of your deck. You gain 100 life multiplied by the total cost of the card revealed this way. Put that card into your hand; or reveal the top card of your deck. This card deals 100 damage multiplied by the total cost of the card revealed this way to your opponent. Put that card into your hand.
+1e629d93-7229-4fab-a0ee-602a3d52bd18@@Reveal the top card of your deck. You gain 100 life multiplied by the total cost of the card revealed this way. Put that card into your hand.
+d236ee5c-8a88-49d8-8155-dea19873d0e0@@Reveal the top card of your deck. This card deals 100 damage multiplied by the total cost of the card revealed this way to your opponent. Put that card into your hand.
+0ccb551a-4bb4-4b21-886c-72e745f3b5bd@@When this card enters your field ⇨ Search your magic stone deck for a special magic stone and reveal it. Then shuffle the rest of your magic stone deck and put that card on top of it.
+c8fb359e-acbc-4c61-9e4d-de2304614389@@[Flying]
+a61afa97-d6ac-4cc4-b910-0e4201b84bd6@@Other water resonators you control gain [+200/+200].
+e2e69db3-9515-4526-bb9b-054ddcfef1d8@@Other darkness resonators you control gain [+200/+200].
+ca5eb4c3-95f2-48f3-8605-e5ff89c26a52@@Banish an Fantasy resonator: This card gains [Barrier](Chant) until end of turn.
+9ececc59-1a09-4d27-a480-d08859040ae7@@[Barrier](Chant)
+efd8d832-9fa6-48b6-a2d3-7701c6ab31e6@@[u][b], remove a resonator in your graveyard from the game: Put a [400/400] water/darkness Fantasy resonator token into your field.
+69c64c48-4350-4ac4-8b6f-5172f97262cf@@When this card enters your field ⇨ Return target resonator to its owner's hand. Its controller discards a card.
+8d3177e4-8d25-4d17-b443-3aaa7d8eff44@@[Limit]１
+ee19c1e2-ecf4-4fcb-aa7a-9f5417abb68a@@Whenever this card attacks or blocks⇒Remove a limit counter from it
+b69677f6-0216-4d8d-912c-a26e4529ff28@@[Awakening][w]: When this card enters your field ⇨ Remove target resonator from the game.
+8d7094db-b33b-4679-8715-5c49085cd2cb@@When this card leaves your field for a non-field zone ⇨ Put that removed card into its owner's field.
+b104aae7-1b87-47b0-964a-c6719f146aa3@@[Awakening][r]: When this card enters your field ⇨ You may play a light or fire chant with total cost 3 or less from your hand without paying its cost.
+27af00af-b527-4ed9-8ce7-d5055d9dee60@@At end of turn⇒If there are no limit counters on this card, return it to its owner's hand.
+36284d62-3439-43c7-8163-67da350d8c95@@[Awakening][w]: When this card enters your field ⇨ Remove target resonator from the game.
+e49ed344-868d-456b-b8d1-fe74c65e9d9f@@[Awakening][r]: When this card enters your field ⇨ You may play a light or fire chant with total cost 3 or less from your hand without paying its cost.
+9a83c66a-ffb8-49bd-be7d-f49c677bd048@@[Quickcast]
+380645ab-0b69-4356-9e1e-b43ea74895c3@@Choose one, if you control a water J/resonator and another darkness J/resonator, you may choose both - Destroy target resonator; or put a [400/400] water/darkness Fantasy resonator token into your field.
+fe50efc3-9156-4dae-a8f6-63f29e19745f@@Choose one, if you control a water J/resonator and another darkness J/resonator, you may choose both - Destroy target resonator; or put a [400/400] water/darkness Fantasy resonator token into your field.
+5c6a50bc-f600-4eae-82f6-e121be664bcb@@Destroy target resonator
+8511ce4a-ac67-4375-a9fe-40fd5c0695df@@Put a [400/400] water/darkness Fantasy resonator token into your field.
+fbe3eaf9-3672-4726-8867-534f49f5b56c@@[Quickcast]
+c088c890-74da-4a10-b8a1-5fde7ac741a6@@When this card enters your field ⇨ If it was played from your hand, remove another target resonator you control from the game. Then put it into its owner's field rested.
+e57c13e7-5315-4452-8386-64ff397ec027@@This card gains [+200/+200] for each chant in your graveyard.
+a79d6c43-a029-4120-9db5-e72d0a3b8dcb@@[r]: This card gains [Swiftness] until end of turn.
+7f8fb41a-86b7-4da6-9e14-ad36873250ea@@[u]: This card gains [Flying] until end of turn.
+96086cb6-6ab3-46a8-bddb-933d72193f3a@@[Swiftness]
+9b97cacd-3381-498f-abba-279ac8660393@@[Flying]
+ecfdc531-ebf9-4820-bb70-e01ddab2a354@@[Quickcast]
+f093adfa-59df-4481-a895-a20df4700766@@Search your deck for an Ancient Magic, reveal it and put it into your hand. Then shuffle your deck.
+82f1f42d-b977-4ab4-a4e4-02e45f980148@@When this card enters your field ⇨ Put a mana counter on your J/ruler.
+5fa8a65d-0b04-42c7-8718-abb0d4ca1276@@When you play a chant ⇨ You may return this card to its owner's hand.
+631f5a5d-bc2f-4209-8767-6a706eb94496@@Whenever you do judgment ⇨ Return this card to its owner's hand.
+c29f1198-f215-40f0-842f-0628ae4d44a5@@[Inheritance][w][g][3]: Target J/resonator you control gains [+1000/+1000] until end of turn. (Pay [w][g][3] and discard this card to play this ability.)
+b27ae19f-a947-4caa-a3ba-33df86fb553d@@When this card enters your field ⇨ Draw a card.
+2857aff4-c1a5-4af2-a203-ef99e794deea@@[Inheritance][w][g][1]: Target J/resonator gains [+600/+600] until end of turn. Draw a card. (Pay [w][g][1] and discard this card to play this ability.)
+ebe0e35e-339d-4658-b957-abab654efa4d@@[Judgment] [r][u][1]
+37c6b88d-c698-4e90-be63-15ae04a87cfb@@[Energize][r][u]
+f5ed440d-70d0-43f3-b564-740ddf4f1cf1@@[Mana] 2 (As the game starts, put two mana counters on this card.)
+bb8ceb78-e052-438d-bed2-96be3ff848fd@@Remove a mana counter from this card: Produce [r] or [u]. Spend this will only to play Ancient Magic cards.
+268cd0d5-d56f-49b4-8f8c-18af30812a21@@Remove a mana counter from this card: Produce [r] or [u]. Spend this will only to play Ancient Magic cards.
+4307c2d2-90ed-48d5-bee1-f661f545aac6@@[Mana]5 (This card enters your field with five mana counters on it.)
+a48c8e28-fb45-48a4-80fe-95ee08a31df6@@As this card enters your field, you may remove a card named "Runic Commander Demon, Akiot" in your hand from the game. If you do, this card enters your field with five mana counters on it.
+1d5c2b9e-8b6d-47f8-88f5-a3262c1e8eed@@This card gains [+600/+600] as long as a card named "Runic Commander Demon, Akiot" is in your removed area and was removed by this card.
+c9703dd6-0830-46a0-a040-b7f943ab4587@@Remove a mana counter from this card: Produce [r] or [u]. Spend this will only to play Ancient Magic cards.
+a029dc8c-805a-4ff0-9471-8829afcb6b98@@Remove a mana counter from this card: Produce [r] or [u]. Spend this will only to play Ancient Magic cards.
+9c98198c-b567-42d8-be31-042962d4855b@@This card deals 200 damage multiplied by X to target resonator and your opponent.
+cc1e9a37-1e2a-46ed-9853-f74baff17e6c@@Choose one, if you control a fire J/resonator and another water J/resonator, you may choose both - Produce [r][u][1]. Spend this will only to play Ancient Magic cards; or target chant in your graveyard gains [Remnant] until end of turn.
+fe5e3478-8536-4811-9640-156b00fee4a1@@Choose one, if you control a fire J/resonator and another water J/resonator, you may choose both - Produce [r][u][1]. Spend this will only to play Ancient Magic cards; or target chant in your graveyard gains [Remnant] until end of turn.
+51c63ee5-be94-4128-97d9-93c0fb2e4889@@Produce [r][u][1]. Spend this will only to play Ancient Magic cards
+731e45d3-d53c-4cd7-8066-a4cd15f5e68b@@Target chant in your graveyard gains [Remnant] until end of turn.
+90312822-1b86-4871-95b7-7a0287e9c32d@@[Remnant]
+8e37c069-393b-43df-a7d5-4ac5574e24f0@@[Flying]
+6f06f4fe-75f7-45f7-87a5-ef8560a60156@@When this card enters your field ⇨ Choose one - Look at your opponent's hand and choose a card. They discard that card; or destroy target addition or regalia your opponent controls.
+f146a05e-3205-49cf-8c60-3cb488b7aad2@@Look at your opponent's hand and choose a card. They discard that card
+2943fa33-9c6d-4d33-a6a3-c6c87feae9ca@@Destroy target addition or regalia your opponent controls.
+19a5963f-45a7-4b8a-a4da-8660c93e373e@@Choose one, if you control a wind J/resonator and another darkness J/resonator, you may choose both - Recover up to four target magic stones; or put target resonator from your graveyard into your hand.
+7f79ec33-96d6-470f-b27c-48a60fb2c6d7@@Choose one, if you control a wind J/resonator and another darkness J/resonator, you may choose both - Recover up to four target magic stones; or put target resonator from your graveyard into your hand.
+2a7d13a9-2c4d-4568-a01d-1b6ce9df0d51@@Recover up to four target magic stones
+43d30a98-daa4-4ff3-a794-41e303ebacf4@@Put target resonator from your graveyard into your hand
+5591447e-69d6-4c86-88a0-47a6de87ad1a@@[Flying]
+1811fff4-cf46-4e9b-8d91-8082478f50c1@@You may spend will to pay this card's [Awakening] costs as though this card were an Ancient Magic.
+dc0b0689-7c41-4ff7-9361-f0cfa973feff@@[Awakening][r]: When this card enters your field ⇨ It deals 1000 damage to target resonator.
+6b33384a-0eb5-4468-ae6e-fa362c077817@@[Awakening][u]: When this card enters your field ⇨ Rest up to two target resonators. They don't recover during their controller's next recovery phase.
+f5dec86e-1d28-453b-a35c-e828ab4b08c2@@[Awakening][r]: When this card enters your field ⇨ It deals 1000 damage to target resonator.
+0d182bf9-617d-43a2-9513-457e771d0e9f@@[Awakening][u]: When this card enters your field ⇨ Rest up to two target resonators. They don't recover during their controller's next recovery phase.
+b24dfa96-3e2a-4616-b168-fa4bb616b4c2@@Choose one - Your opponent discards X cards; or you draw X cards.
+df8fffb9-8c34-4f37-9e46-2f0b65a24b15@@Your opponent discards X cards.
+1bf7cfb3-3d47-4e3c-b9de-e03279ee9353@@You draw X cards.
+d877c848-ff72-4ada-85a3-c7d903746ebf@@[rest]: Recover target magic stone.
+d7b4cfe5-fed1-463f-87ff-980e802b9d77@@[Precision]
+a1867f11-bb37-4391-bad8-095e0aea510c@@[Inheritance][w][g]: Target J/resonator gains [+500/+500] and [Precision] until end of turn. (Pay [w][g] and discard this card to play this ability.)
+e3086670-b526-4767-a8cd-7599ff12c400@@[Precision]
+f78cfc88-9067-4d61-ad22-59c28e523454@@If your J/ruler isn't "Lumia, the Fated Rebirth" or "Lumia, Saint of the Crimson Lotus", this card enters your field rested unless you pay 300 life.
+90249de3-7edf-4cf9-b6ec-6544624b96b4@@Treat this card as a light magic stone and a fire magic stone.
+62155c22-81c9-4307-8e6f-ab63929fbed7@@[rest]: Produce [w] or [r].
+3e26fee8-b519-4ff7-baa3-f24af2077fc7@@[rest]: Produce [w] or [r].
+a2f85cd3-fdb6-4188-bd11-880244bf378c@@When you do judgment of a light ruler ⇨ Recover this card.
+0699a013-dfdd-422a-a1c4-631b38e5d299@@If your J/ruler isn't "Lilias Petal, Agent of Salvation" or "The Nine-Tailed Fox", this card enters your field rested unless you pay 300 life.
+029cc3c8-0e64-4c63-ab4e-af8e21cd2483@@Treat this card as a wind magic stone and a darkness magic stone
+6a1062bb-b534-4e22-9a4c-afe6868b987f@@[rest]: Produce [g] or [b].
+1f92cf70-a041-4f6e-abdf-df3759842bcd@@[rest]: Produce [g] or [b].
+d52bd02f-5b86-440a-a1bb-cc74323c7327@@When this card is put into a graveyard from your field ⇨ Your opponent loses 100 life and you gain 100 life.
+fdbe0dea-abb0-4ddf-abc3-a0a569358864@@If your J/ruler isn't "Sol, Hierophant of the Helio Star" or "Sol, Dark Commander of Steam", this card enters your field rested unless you pay 300 life.
+39e2088d-7508-40b8-b19e-91d0de5c18f0@@Treat this card as a fire magic stone and a water magic stone.
+7ad0031d-c1d2-4707-be77-0677fb30f978@@[rest]: Produce [r] or [u].
+ef6f994d-8afa-4f02-8937-f819e54b4a37@@[rest]: Produce [r] or [u].
+fe3ceb06-f68d-4eac-a963-8014e48547c6@@[1], [rest]: Put a mana counter on your J/ruler.
+d1bb8f87-bf04-4170-bb39-3ee63a0fa0d8@@If your J/ruler isn't "Glorius, Masked Crusader" or "Faria, Ruler of Divine Beasts", this card enters your field rested unless you pay 300 life.
+8d88dfc0-3ba5-436a-9dfc-521ac7510422@@Treat this card as a light magic stone and a wind magic stone.
+bf764828-0452-4c74-b8e9-dee1b87d95f5@@[rest]: Produce [w] or [g].
+72219579-5e37-4293-80aa-eedc9ca40ab7@@[rest]: Produce [w] or [g].
+36e0b1af-bd80-4ab9-8e56-01a124ccf464@@[rest]: As long as your J-ruler is "Faria, Ruler of Divine Beasts", it gains [+200/+200] until end of turn.
+0fa1dad3-47f2-40e7-b3cf-75b22ed5618a@@If your J/ruler isn't "Invading Demon of Water, Valentina" or "Valentina, Released Terror", this card enters your field rested unless you pay 300 life.
+078338d2-8565-4098-b13c-30af34f851f6@@Treat this card as a water magic stone and a darkness magic stone.
+4c85b950-9a23-4866-b428-2c0086b0b57c@@[rest]: Produce [u] or [b].
+cfb8f74c-46db-4db2-aa65-b7fd38a394a6@@[rest]: Produce [u] or [b].
+b559d639-985a-41b3-838e-75e4c9b97917@@[rest]: Target resonator token gains [+100/+100] until end of turn.
+b509530d-17c5-46b8-bb54-6ec930c9e7f2@@[rest]: Produce [b].
+77c372ec-c9b4-4ebc-80ea-6770bd0c7088@@[rest]: Produce [r].
+6dbf84a6-55f6-42f7-9dc0-4dcb29ea30be@@[rest]: Produce [w].
+2de82aad-997e-49f7-b378-9d94a2cfc52c@@[rest]: Produce [u].
+4567ea8c-fce2-45fa-9547-4c43f43eacbd@@[rest]: Produce [g].
 f71c3ba3-60e0-4c18-b692-781ba1b3374d@@When this card enters your field⇒Search your deck for a card named "Magic Sweets", reveal it and put it into your hand. Then shuffle your deck.
 bef21019-86cb-4476-a7dc-de6c261525eb@@[rest]: You gain 200 life.
 2a046a9b-6b04-47d8-a8df-bc9bc6dfca25@@When this card enters your field⇒Draw a card.
 88c95438-51da-4cec-8534-3e46f6fb12bc@@At the end of your turn⇒Recover target Fairy Tale or Human J/resonator you control.
 2d1cd60d-aeda-46c2-b6e7-ecfd4b0bf9a4@@Prevent the first damage that would be dealt to this card each turn.
+b9f79e2f-41fb-4497-94de-2dc87557dd77@@Prevent the first damage that would be dealt to this card each turn.
 c09b34ad-b806-41a8-bdab-a38774d302c7@@[w]: [Force]1. Fairy Tale and Human J/resonators you control gain [+X00/+X00] until end of turn, where X is the result of the roll. Play this ability only once per turn.
 c9e87a88-0e13-4180-8b77-93b04ef34fbf@@When this card enters your field⇒[Force]1 (Roll a die.) Put X [+100/+100] counters on this card, where X is the result of the roll.
 7d764123-f0df-4ef6-a8e6-eea88643fc9d@@When this card deals damage to your opponent⇒Search your deck for a Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your deck.
@@ -355,6 +668,8 @@ fdc70064-eb27-43f5-ac8d-7e1c1f1f5631@@[rest]: Produce [u].
 568b2c0f-f6b1-4e4f-9108-c488d9556853@@[Judgment] [g][g][3]
 b15b8fec-87b7-4df0-acec-7c7711ac4636@@[Energize] [g] (As the game starts, if you are not the player going first, you get a will coin with "Banish this coin: Produce [g].")
 5a2dcadb-edf2-4515-8b69-75d9b4d72198@@Whenever you play your second card each turn⇒Put a [100/100] wind Elf resonator token into your field.
+48867edd-bc82-42cc-bea5-d0fb8328891b@@Whenever you play your second card each turn⇒Put a [100/100] wind Elf resonator token into your field.
+a721bdd4-7ccf-487b-a71c-e4a232e0ad92@@Whenever you play your second card each turn⇒Put two [100/100] wind Elf resonator tokens into your field.
 e2d0cb98-1dd2-4afd-966b-6a2a1e7074cb@@Other Elves you control gain [+400/+400].
 88f49338-d3c2-478b-b819-967147414a89@@Whenever you play your second card each turn⇒Put two [100/100] wind Elf resonator tokens into your field.
 dffeb762-e8ce-4b0b-bb05-ab27ecc5edeb@@Choose one - Put target resonator with total cost 2 or less on the bottom of its owner's deck; [Torrent] (As you play this card, if you played one or more other cards this turn, it gains the following text.) Put target resonator with total cost 4 or less on the bottom of its owner's deck.
@@ -408,6 +723,17 @@ fd31b0a0-2739-4a29-9455-970860a592d3@@This card cannot attack as long as there a
 5355329e-53a8-42e4-888a-fff0a735ec9f@@When this card enters your field⇒Search your deck for a card named "Castle of Oni", reveal it and put it into your hand. Then shuffle your deck.
 73ccdfe9-ed98-42e5-8708-758226c75b61@@When this card is put into a graveyard from your field⇒Return it to its owner's hand. You lose 100 life.
 c7a75e8b-aa1e-4327-8d4f-255d7a21fb52@@[rest]: Produce [b].
+9820bee9-88a2-4425-a45f-6ae347b1feba@@At the beginning of your turn ⇨ Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls.
+6e72d2c9-136c-4dee-9bb1-e027bc100fa0@@Banish this coin: Produce[w]or[g].
+51b480a1-224b-4167-b5ea-e3c8866c0adc@@Banish this coin: Produce[w]or[g].
+881aa987-d151-4575-bed2-5eb9be9d5417@@Banish this coin: Produce[u]or[b].
+29cd0f2c-044a-4a9e-9714-9e45f088d594@@Banish this coin: Produce[u]or[b].
+2050de8a-4ca6-4bfb-83c6-4601c6b614e3@@Banish this coin: Produce[g]or[b].
+acd2b435-169b-4834-b7cf-768ab2147c2f@@Banish this coin: Produce[g]or[b].
+ae70c1ce-4520-463c-9725-7a55ab4c0808@@Banish this coin: Produce[w]or[r].
+d23dab2e-12ac-4660-8343-676db24a8119@@Banish this coin: Produce[w]or[r].
+00af6ca6-24de-428d-9cea-db8d4b1efdec@@Banish this coin: Produce[r]or[u].
+2843591d-a49a-4226-821a-e0f508843f9c@@Banish this coin: Produce[r]or[u].
 43c43a6f-b797-42ce-aa4d-2f80308c9974@@Banish this coin: Produce[w].
 eb1054fb-dc9f-438b-bbc8-9cc4441e05e8@@Banish this coin: Produce[r].
 fb04560f-11cb-406d-8c32-fd67332a5d65@@Banish this coin: Produce[u].

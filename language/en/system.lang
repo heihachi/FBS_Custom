@@ -166,7 +166,7 @@
 166@@Play an effect
 167@@Cost reduction
 168@@Do nothing
-169@@Will you pay additional will?
+169@@Will you pay [{0}] additional will?
 170@@Choose a cancel target
 171@@Choose a race
 172@@Choose a card to return to the deck
@@ -227,8 +227,26 @@
 232@@You and your opponent are running different versions of the game,\n one of you must update to play.
 233@@The game has been updated. Please download the most recent version.
 234@@(Shift)
-235@@Now Initializing…
+235@@Now Initializing...
 236@@
 237@@Failure to initialize
 238@@Play [Torrent]
 239@@Your opponent has not acted within the allotted time. Your opponent will automatically concede the game.
+240@@[Inheritance]
+241@@Prevent
+242@@Banish this card?
+243@@Send this battle log to help improve the game's quality.
+244@@Choose a card to reveal
+245@@Choose two
+246@@Choose a replacement effect
+247@@Choose one or more
+248@@Will you pay the cost?
+249@@Will you pay the life cost?
+250@@Return
+251@@You
+252@@Your opponent
+253@@Target J/resonator
+254@@Will you play this without paying its cost?
+255@@[Graveyard] Choose a card to remove from game.
+256@@[Hand] Choose a card to remove from game.
+257@@[Deck] Choose a card to remove from game.
